@@ -2,15 +2,16 @@ name: Update Dashboard Data
 
 on:
   schedule:
-    # 每 30 分钟运行一次（北京时间）
     - cron: '*/30 * * * *'
-  workflow_dispatch:  # 允许手动触发
+  workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    outputs:
+      data_updated: ${{ steps.update.outputs.updated }}
 
     steps:
       - name: Checkout
@@ -21,18 +22,30 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Run update script
+      - name: Run update script (tolerate failure)
+        id: update
+        continue-on-error: true
         env:
           METABASE_URL: ${{ secrets.METABASE_URL }}
           METABASE_USER: ${{ secrets.METABASE_USER }}
           METABASE_PASS: ${{ secrets.METABASE_PASS }}
-        run: python scripts/update_data.py
+        run: |
+          set +e
+          python scripts/update_data.py
+          rc=$?
+          if [ $rc -ne 0 ]; then
+            echo "::warning::Metabase 拉取失败 (exit=$rc)，可能是海外 runner 无法访问国内 Metabase。继续用现有 dashboard_data.json 部署。"
+            echo "updated=false" >> $GITHUB_OUTPUT
+          else
+            echo "updated=true" >> $GITHUB_OUTPUT
+          fi
+          exit 0
 
       - name: Commit and push if changed
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions Bot"
-          git add dashboard_data.json
+          git add dashboard_data.json || true
           if ! git diff --cached --quiet; then
             git commit -m "chore: auto-update dashboard data $(date -u +%Y-%m-%dT%H:%M:%SZ)"
             git push
