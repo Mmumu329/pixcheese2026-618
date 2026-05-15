@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-05-15T14:37:59",
+    "updated_at": "2026-05-15T14:48:10",
     "source": "Metabase collection 474",
     "default_dataset": "y2026_618"
   },
@@ -10,7 +10,7 @@
         "campaign": "25 年双 11 大促（真实数据，作为 618 同期基线）",
         "campaign_key": "y2025_d11",
         "date_range": "2025-10-17 → 2025-11-14",
-        "updated_at": "2026-05-15T14:37:59"
+        "updated_at": "2026-05-15T14:48:10"
       },
       "core": {
         "total_gmv": 673138,
@@ -269,6 +269,11 @@
         }
       ],
       "phase": {
+        "蓄水期": {
+          "gmv": 141124,
+          "orders": 666,
+          "users": 557
+        },
         "预热期": {
           "gmv": 290962,
           "orders": 1305,
@@ -278,11 +283,6 @@
           "gmv": 240805,
           "orders": 852,
           "users": 730
-        },
-        "蓄水期": {
-          "gmv": 141124,
-          "orders": 666,
-          "users": 557
         },
         "返场期": {
           "gmv": 247,
@@ -811,7 +811,7 @@
         "campaign": "26 年 618 大促（实时数据）",
         "campaign_key": "y2026_618",
         "date_range": "2026-05-13 → 2026-05-13",
-        "updated_at": "2026-05-15T14:37:59"
+        "updated_at": "2026-05-15T14:48:10"
       },
       "core": {
         "total_gmv": 12177,
@@ -1223,7 +1223,7 @@
         "event_total": 2000,
         "event_date_range": "2026-05-13 → 2026-05-15",
         "funnel": {
-          "exposure": 394
+          "exposure": 847
         },
         "reserve_count": 0,
         "daily_reserve": [],
@@ -1238,52 +1238,52 @@
         "screen_counts": [
           [
             "home_page",
-            1871
+            1687
           ],
           [
             "open_screen",
-            129
+            313
           ]
         ],
         "element_counts": [],
         "channel_counts": [
           [
             "未知",
-            1140
-          ],
-          [
-            "1673",
-            279
+            1249
           ],
           [
             "1669",
-            276
+            251
+          ],
+          [
+            "1673",
+            247
           ],
           [
             "1672",
-            149
-          ],
-          [
-            "1671",
-            85
+            136
           ],
           [
             "1670",
-            66
+            56
+          ],
+          [
+            "1671",
+            51
           ],
           [
             "1668",
-            5
+            10
           ]
         ],
         "user_type_counts": [
           [
-            "老用户",
-            1476
+            "新用户",
+            1210
           ],
           [
-            "新用户",
-            524
+            "老用户",
+            790
           ]
         ],
         "source_counts": [
@@ -1301,13 +1301,13 @@
         }
       },
       "reservations": {
-        "total": 239,
-        "unique_users": 168,
-        "unique_orgs": 168,
+        "total": 240,
+        "unique_users": 169,
+        "unique_orgs": 169,
         "paid_users": 1,
         "paid_orgs": 2,
-        "return_visit_users": 21,
-        "return_visit_rate": 12.5,
+        "return_visit_users": 33,
+        "return_visit_rate": 19.5,
         "paid_rate": 0.6,
         "daily": [
           {
@@ -1328,7 +1328,7 @@
           },
           {
             "date": "2026-05-15",
-            "count": 23
+            "count": 24
           }
         ],
         "source_rank": [
@@ -1338,7 +1338,7 @@
           },
           {
             "name": "端内弹窗",
-            "count": 58
+            "count": 59
           },
           {
             "name": "社群-小希",
@@ -1372,7 +1372,7 @@
         "product_rank": [
           {
             "name": "大促活动｜精修体验会员",
-            "count": 82
+            "count": 83
           },
           {
             "name": "大促活动｜精修基础会员",
@@ -1415,20 +1415,20 @@
             "count": 3
           },
           {
-            "name": "大促活动｜AI畅修券20张（非会员）",
+            "name": "大促活动｜畅修旗舰会员",
             "count": 2
           }
         ]
       },
       "invites": {
-        "total": 94,
-        "inviter_users": 85,
+        "total": 95,
+        "inviter_users": 86,
         "helper_users": 0,
-        "helper_orgs": 39,
+        "helper_orgs": 40,
         "status_counts": [
           {
             "status": "4",
-            "count": 80
+            "count": 81
           },
           {
             "status": "3",
@@ -1458,7 +1458,7 @@
           },
           {
             "date": "2026-05-15",
-            "count": 3
+            "count": 4
           }
         ]
       }
@@ -1481,15 +1481,15 @@
     "reserve_detail": {
       "card_id": 8567,
       "status": "completed",
-      "row_count": 239,
-      "rows_returned": 239,
+      "row_count": 240,
+      "rows_returned": 240,
       "rows_truncated": null
     },
     "invite_detail": {
       "card_id": 8568,
       "status": "completed",
-      "row_count": 94,
-      "rows_returned": 94,
+      "row_count": 95,
+      "rows_returned": 95,
       "rows_truncated": null
     },
     "notes": [
