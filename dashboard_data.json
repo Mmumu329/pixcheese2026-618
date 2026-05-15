@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-05-15T10:41:56",
+    "updated_at": "2026-05-15T10:52:02",
     "source": "Metabase collection 474",
     "default_dataset": "y2025_d11"
   },
@@ -10,7 +10,7 @@
         "campaign": "25 年双 11 大促（真实数据，作为 618 同期基线）",
         "campaign_key": "y2025_d11",
         "date_range": "2025-10-17 → 2025-11-14",
-        "updated_at": "2026-05-15T10:41:56"
+        "updated_at": "2026-05-15T10:52:02"
       },
       "core": {
         "total_gmv": 673138,
@@ -274,15 +274,15 @@
           "orders": 852,
           "users": 730
         },
-        "预热期": {
-          "gmv": 290962,
-          "orders": 1305,
-          "users": 1040
-        },
         "蓄水期": {
           "gmv": 141124,
           "orders": 666,
           "users": 557
+        },
+        "预热期": {
+          "gmv": 290962,
+          "orders": 1305,
+          "users": 1040
         },
         "返场期": {
           "gmv": 247,
@@ -811,7 +811,7 @@
         "campaign": "26 年 618 大促（实时数据）",
         "campaign_key": "y2026_618",
         "date_range": "2026-05-13 → 2026-05-13",
-        "updated_at": "2026-05-15T10:41:56"
+        "updated_at": "2026-05-15T10:52:02"
       },
       "core": {
         "total_gmv": 12177,
@@ -1223,7 +1223,7 @@
         "event_total": 2000,
         "event_date_range": "2026-05-13 → 2026-05-15",
         "funnel": {
-          "exposure": 984
+          "exposure": 889
         },
         "reserve_count": 0,
         "daily_reserve": [],
@@ -1232,48 +1232,48 @@
         "action_counts": [
           [
             "screen_view",
-            1161
+            1398
           ],
           [
             "module_view",
-            839
+            602
           ]
         ],
         "screen_counts": [
           [
             "home_page",
-            1859
+            1880
           ],
           [
             "open_screen",
-            141
+            120
           ]
         ],
         "element_counts": [],
         "channel_counts": [
           [
             "未知",
-            1230
+            1219
           ],
           [
             "1673",
-            251
+            248
           ],
           [
             "1669",
-            204
+            237
           ],
           [
             "1672",
-            168
+            165
           ],
           [
             "1670",
-            74
+            65
           ],
           [
             "1671",
-            62
+            55
           ],
           [
             "1668",
@@ -1283,11 +1283,11 @@
         "user_type_counts": [
           [
             "新用户",
-            1442
+            1360
           ],
           [
             "老用户",
-            558
+            640
           ]
         ],
         "source_counts": [
@@ -1322,17 +1322,17 @@
     },
     "reserve_detail": {
       "card_id": 8567,
-      "status": "failed",
-      "error": "没有运行查询的权限",
-      "error_type": "missing-required-permissions",
-      "rows_returned": 0
+      "status": "completed",
+      "row_count": 227,
+      "rows_returned": 227,
+      "rows_truncated": null
     },
     "invite_detail": {
       "card_id": 8568,
-      "status": "failed",
-      "error": "没有运行查询的权限",
-      "error_type": "missing-required-permissions",
-      "rows_returned": 0
+      "status": "completed",
+      "row_count": 93,
+      "rows_returned": 93,
+      "rows_truncated": null
     },
     "notes": [
       "GitHub Actions 海外 runner 无法访问 Metabase，自动更新由本机 LaunchAgent 推送 dashboard_data.json。",
