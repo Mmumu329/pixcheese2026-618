@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-05-15T10:56:55",
+    "updated_at": "2026-05-15T11:04:57",
     "source": "Metabase collection 474",
     "default_dataset": "y2026_618"
   },
@@ -10,7 +10,7 @@
         "campaign": "25 年双 11 大促（真实数据，作为 618 同期基线）",
         "campaign_key": "y2025_d11",
         "date_range": "2025-10-17 → 2025-11-14",
-        "updated_at": "2026-05-15T10:56:55"
+        "updated_at": "2026-05-15T11:04:57"
       },
       "core": {
         "total_gmv": 673138,
@@ -269,6 +269,11 @@
         }
       ],
       "phase": {
+        "预热期": {
+          "gmv": 290962,
+          "orders": 1305,
+          "users": 1040
+        },
         "正式期": {
           "gmv": 240805,
           "orders": 852,
@@ -278,11 +283,6 @@
           "gmv": 141124,
           "orders": 666,
           "users": 557
-        },
-        "预热期": {
-          "gmv": 290962,
-          "orders": 1305,
-          "users": 1040
         },
         "返场期": {
           "gmv": 247,
@@ -593,8 +593,8 @@
       "buy_type": [
         {
           "name": "复购-Upsell",
-          "gmv": 334816,
-          "orders": 836
+          "gmv": 335204,
+          "orders": 837
         },
         {
           "name": "首次购买",
@@ -603,8 +603,8 @@
         },
         {
           "name": "复购-Downsell",
-          "gmv": 129239,
-          "orders": 763
+          "gmv": 128851,
+          "orders": 762
         },
         {
           "name": "复购-Equal sales",
@@ -811,7 +811,7 @@
         "campaign": "26 年 618 大促（实时数据）",
         "campaign_key": "y2026_618",
         "date_range": "2026-05-13 → 2026-05-13",
-        "updated_at": "2026-05-15T10:56:55"
+        "updated_at": "2026-05-15T11:04:57"
       },
       "core": {
         "total_gmv": 12177,
@@ -1068,13 +1068,13 @@
           "price": 1188.0
         },
         {
-          "name": "精修基础会员",
+          "name": "畅修基础会员",
           "gmv": 388,
           "orders": 1,
           "price": 388.0
         },
         {
-          "name": "畅修基础会员",
+          "name": "精修基础会员",
           "gmv": 388,
           "orders": 1,
           "price": 388.0
@@ -1223,7 +1223,8 @@
         "event_total": 2000,
         "event_date_range": "2026-05-13 → 2026-05-15",
         "funnel": {
-          "exposure": 993
+          "exposure": 1030,
+          "click": 39
         },
         "reserve_count": 0,
         "daily_reserve": [],
@@ -1232,68 +1233,89 @@
         "action_counts": [
           [
             "module_view",
-            1853
+            1794
           ],
           [
             "screen_view",
-            147
+            140
+          ],
+          [
+            "element_click",
+            66
           ]
         ],
         "screen_counts": [
           [
             "home_page",
-            1853
+            1794
           ],
           [
             "open_screen",
-            147
+            140
+          ],
+          [
+            "未知",
+            66
           ]
         ],
-        "element_counts": [],
+        "element_counts": [
+          [
+            "top_banner_click",
+            66
+          ]
+        ],
         "channel_counts": [
           [
             "未知",
-            1195
-          ],
-          [
-            "1673",
-            290
+            1379
           ],
           [
             "1672",
-            202
+            167
           ],
           [
             "1669",
-            162
+            157
+          ],
+          [
+            "1673",
+            143
           ],
           [
             "1670",
-            76
+            79
           ],
           [
             "1671",
-            72
+            71
           ],
           [
             "1668",
             3
+          ],
+          [
+            "社群-江江",
+            1
           ]
         ],
         "user_type_counts": [
           [
             "新用户",
-            1549
+            1519
           ],
           [
             "老用户",
-            451
+            481
           ]
         ],
         "source_counts": [
           [
             "app",
-            2000
+            1934
+          ],
+          [
+            "web",
+            66
           ]
         ],
         "quality": {
@@ -1310,8 +1332,8 @@
         "unique_orgs": 159,
         "paid_users": 1,
         "paid_orgs": 2,
-        "return_visit_users": 25,
-        "return_visit_rate": 15.7,
+        "return_visit_users": 18,
+        "return_visit_rate": 11.3,
         "paid_rate": 0.6,
         "daily": [
           {
@@ -1415,11 +1437,11 @@
             "count": 3
           },
           {
-            "name": "大促活动｜AI畅修券20张（非会员）",
+            "name": "大促活动｜AI畅修券20张",
             "count": 2
           },
           {
-            "name": "大促活动｜AI畅修券20张",
+            "name": "大促活动｜AI畅修券20张（非会员）",
             "count": 2
           }
         ]
