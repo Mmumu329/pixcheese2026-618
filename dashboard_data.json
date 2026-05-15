@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-05-15T14:58:17",
+    "updated_at": "2026-05-15T15:08:24",
     "source": "Metabase collection 474",
     "default_dataset": "y2026_618"
   },
@@ -10,7 +10,7 @@
         "campaign": "25 年双 11 大促（真实数据，作为 618 同期基线）",
         "campaign_key": "y2025_d11",
         "date_range": "2025-10-17 → 2025-11-14",
-        "updated_at": "2026-05-15T14:58:17"
+        "updated_at": "2026-05-15T15:08:24"
       },
       "core": {
         "total_gmv": 673138,
@@ -269,20 +269,20 @@
         }
       ],
       "phase": {
-        "蓄水期": {
-          "gmv": 141124,
-          "orders": 666,
-          "users": 557
+        "正式期": {
+          "gmv": 240805,
+          "orders": 852,
+          "users": 730
         },
         "预热期": {
           "gmv": 290962,
           "orders": 1305,
           "users": 1040
         },
-        "正式期": {
-          "gmv": 240805,
-          "orders": 852,
-          "users": 730
+        "蓄水期": {
+          "gmv": 141124,
+          "orders": 666,
+          "users": 557
         },
         "返场期": {
           "gmv": 247,
@@ -811,7 +811,7 @@
         "campaign": "26 年 618 大促（实时数据）",
         "campaign_key": "y2026_618",
         "date_range": "2026-05-13 → 2026-05-13",
-        "updated_at": "2026-05-15T14:58:17"
+        "updated_at": "2026-05-15T15:08:24"
       },
       "core": {
         "total_gmv": 12177,
@@ -1044,13 +1044,13 @@
       ],
       "member_rank": [
         {
-          "name": "精修臻享会员",
+          "name": "畅修臻享会员",
           "gmv": 1988,
           "orders": 1,
           "price": 1988.0
         },
         {
-          "name": "畅修臻享会员",
+          "name": "精修臻享会员",
           "gmv": 1988,
           "orders": 1,
           "price": 1988.0
@@ -1068,13 +1068,13 @@
           "price": 1188.0
         },
         {
-          "name": "畅修基础会员",
+          "name": "精修基础会员",
           "gmv": 388,
           "orders": 1,
           "price": 388.0
         },
         {
-          "name": "精修基础会员",
+          "name": "畅修基础会员",
           "gmv": 388,
           "orders": 1,
           "price": 388.0
@@ -1223,7 +1223,8 @@
         "event_total": 2000,
         "event_date_range": "2026-05-13 → 2026-05-15",
         "funnel": {
-          "exposure": 413
+          "exposure": 374,
+          "click": 44
         },
         "reserve_count": 0,
         "daily_reserve": [],
@@ -1232,64 +1233,81 @@
         "action_counts": [
           [
             "screen_view",
-            2000
+            1930
+          ],
+          [
+            "element_click",
+            70
           ]
         ],
         "screen_counts": [
           [
             "home_page",
-            1939
+            1841
           ],
           [
             "open_screen",
-            61
+            89
+          ],
+          [
+            "未知",
+            70
           ]
         ],
-        "element_counts": [],
+        "element_counts": [
+          [
+            "top_banner_click",
+            70
+          ]
+        ],
         "channel_counts": [
           [
             "未知",
-            1233
+            1210
           ],
           [
             "1673",
-            244
+            243
           ],
           [
             "1669",
-            210
+            216
           ],
           [
             "1672",
-            153
+            183
           ],
           [
             "1671",
-            87
+            85
           ],
           [
             "1670",
-            69
+            54
           ],
           [
             "1668",
-            4
+            9
           ]
         ],
         "user_type_counts": [
           [
             "老用户",
-            1321
+            1318
           ],
           [
             "新用户",
-            679
+            682
           ]
         ],
         "source_counts": [
           [
             "app",
-            2000
+            1930
+          ],
+          [
+            "web",
+            70
           ]
         ],
         "quality": {
@@ -1306,8 +1324,8 @@
         "unique_orgs": 170,
         "paid_users": 1,
         "paid_orgs": 2,
-        "return_visit_users": 20,
-        "return_visit_rate": 11.8,
+        "return_visit_users": 15,
+        "return_visit_rate": 8.8,
         "paid_rate": 0.6,
         "daily": [
           {
