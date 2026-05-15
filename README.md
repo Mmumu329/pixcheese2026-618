@@ -1,6 +1,6 @@
 # 像素芝士大促数据看板 · 部署说明
 
-公网可访问 · 30 分钟自动刷新 · 完全免费
+公网可访问 · 本机定时拉数刷新 · 完全免费
 
 ---
 
@@ -14,10 +14,10 @@
              │ API (Session 登录)
              ▼
 ┌──────────────────────────┐
-│  GitHub Actions          │
-│  每 30 分钟跑 update_data│   ←─── 自动化拉数据
+│  本机 LaunchAgent        │
+│  每 10 分钟跑 update_data│   ←─── 公司网络内拉数据
 │  生成 dashboard_data.json│
-│  自动提交回 Repo         │
+│  自动 git push           │
 └────────────┬─────────────┘
              │ git push
              ▼
@@ -63,19 +63,9 @@ git push -u origin main
 > 现在密码登录已废弃，需要用 **Personal Access Token (PAT)**：
 > https://github.com/settings/tokens → Generate new token → 勾选 `repo` 权限 → 复制 token 当密码用
 
-### 步骤 4：配置 Metabase 凭据（Secrets）
+### 步骤 4：配置本机 Metabase 凭据
 
-打开你刚建的 Repo → **Settings** → **Secrets and variables** → **Actions** → **New repository secret**
-
-需要添加 3 个：
-
-| 名称 | 值 |
-|------|----|
-| `METABASE_URL` | `https://metabase.pixcakeai.com` |
-| `METABASE_USER` | `jbr@pixcakeai.com` |
-| `METABASE_PASS` | `jdsiT9QmzPzuzp` |
-
-> Secrets 是加密存储的，连 Repo 的协作者都看不到原文，只有 Actions 跑的时候才会注入。
+复制 `.env.example` 为 `.env`，把 Metabase 账号和密码填在 `.env` 里。`.env` 已在 `.gitignore` 中，不要提交到 GitHub。
 
 ### 步骤 5：开启 GitHub Pages
 
@@ -86,7 +76,7 @@ git push -u origin main
 
 ### 步骤 6：手动触发一次 Workflow（测试）
 
-打开 Repo → **Actions** → 左侧选 `Update Dashboard Data` → 右上 **Run workflow** 按钮 → 确认运行。
+打开 Repo → **Actions** → 左侧选 `Deploy Dashboard` → 右上 **Run workflow** 按钮 → 确认运行。
 
 等 1-2 分钟，看到绿勾就 ✅。
 
@@ -109,17 +99,12 @@ https://yourname.github.io/pix-d-2026-x9k2m7/
 
 ## 数据多久更新一次？
 
-- GitHub Actions 每 **30 分钟** 自动跑一次（cron 表达式 `*/30 * * * *`）
+- 本机 LaunchAgent 每 **10 分钟** 自动跑一次 `scripts/local_update_and_publish.sh`
+- GitHub Actions 只负责在代码或数据 push 后部署 Pages
 - 看板打开后，**每 10 分钟也会自动 fetch 一次 dashboard_data.json**
 - 也可以点看板右上角 **⟳ 刷新数据** 按钮立即刷新
 
-如果想改频率，修改 `.github/workflows/update.yml` 第 6 行：
-
-```yaml
-- cron: '*/10 * * * *'  # 每 10 分钟
-- cron: '0 * * * *'     # 每小时整点
-- cron: '*/5 * * * *'   # 每 5 分钟（注意 GitHub 免费额度每月 2000 分钟）
-```
+原因：GitHub 海外 runner 访问公司 Metabase 会超时，所以拉数必须放在能访问 Metabase 的本机或公司服务器上。
 
 ---
 
@@ -171,13 +156,12 @@ Vercel Pro $20/月，可以一键给静态站加密码。
 ```bash
 cd /Users/mumuu/Desktop/像素芝士大促看板部署
 
-# 设环境变量
-export METABASE_URL=https://metabase.pixcakeai.com
-export METABASE_USER=jbr@pixcakeai.com
-export METABASE_PASS='jdsiT9QmzPzuzp'
+# 设环境变量（不要提交 .env）
+cp .env.example .env
+# 编辑 .env 后运行
 
 # 跑脚本，会更新 dashboard_data.json
-python scripts/update_data.py
+python3 scripts/update_data.py
 
 # 打开 index.html 看效果
 open index.html
@@ -198,8 +182,8 @@ open index.html
 
 ## 常见问题
 
-### Q1: Actions 失败提示登录错误？
-检查 Secrets 是否拼对。注意 `METABASE_PASS` 末尾没有空格。
+### Q1: Actions 成功但数据没变？
+Actions 只部署静态文件，数据更新由本机定时任务推送。检查 `~/Library/Logs/pixcheese-dashboard-update.log`。
 
 ### Q2: 看板打开后还是旧数据？
 - 看 Actions 是否正常跑完（绿勾）
