@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-05-15T16:23:25",
+    "updated_at": "2026-05-15T16:33:31",
     "source": "Metabase collection 474",
     "default_dataset": "y2026_618"
   },
@@ -10,7 +10,7 @@
         "campaign": "25 年双 11 大促（真实数据，作为 618 同期基线）",
         "campaign_key": "y2025_d11",
         "date_range": "2025-10-17 → 2025-11-14",
-        "updated_at": "2026-05-15T16:23:25"
+        "updated_at": "2026-05-15T16:33:31"
       },
       "core": {
         "total_gmv": 673138,
@@ -269,6 +269,11 @@
         }
       ],
       "phase": {
+        "正式期": {
+          "gmv": 240805,
+          "orders": 852,
+          "users": 730
+        },
         "蓄水期": {
           "gmv": 141124,
           "orders": 666,
@@ -278,11 +283,6 @@
           "gmv": 290962,
           "orders": 1305,
           "users": 1040
-        },
-        "正式期": {
-          "gmv": 240805,
-          "orders": 852,
-          "users": 730
         },
         "返场期": {
           "gmv": 247,
@@ -811,7 +811,7 @@
         "campaign": "26 年 618 大促（实时数据）",
         "campaign_key": "y2026_618",
         "date_range": "2026-05-13 → 2026-05-13",
-        "updated_at": "2026-05-15T16:23:25"
+        "updated_at": "2026-05-15T16:33:31"
       },
       "core": {
         "total_gmv": 12177,
@@ -1044,13 +1044,13 @@
       ],
       "member_rank": [
         {
-          "name": "精修臻享会员",
+          "name": "畅修臻享会员",
           "gmv": 1988,
           "orders": 1,
           "price": 1988.0
         },
         {
-          "name": "畅修臻享会员",
+          "name": "精修臻享会员",
           "gmv": 1988,
           "orders": 1,
           "price": 1988.0
@@ -1068,13 +1068,13 @@
           "price": 1188.0
         },
         {
-          "name": "精修基础会员",
+          "name": "畅修基础会员",
           "gmv": 388,
           "orders": 1,
           "price": 388.0
         },
         {
-          "name": "畅修基础会员",
+          "name": "精修基础会员",
           "gmv": 388,
           "orders": 1,
           "price": 388.0
@@ -1223,7 +1223,8 @@
         "event_total": 2000,
         "event_date_range": "2026-05-13 → 2026-05-15",
         "funnel": {
-          "exposure": 551
+          "exposure": 880,
+          "click": 1
         },
         "reserve_count": 0,
         "daily_reserve": [],
@@ -1232,62 +1233,71 @@
         "action_counts": [
           [
             "screen_view",
-            1895
+            1268
           ],
           [
             "module_view",
-            105
+            718
+          ],
+          [
+            "element_click",
+            14
           ]
         ],
         "screen_counts": [
           [
             "home_page",
-            1870
+            1788
           ],
           [
             "open_screen",
-            130
+            212
           ]
         ],
-        "element_counts": [],
+        "element_counts": [
+          [
+            "home_appbar_button",
+            14
+          ]
+        ],
         "channel_counts": [
           [
             "未知",
-            1233
+            1259
           ],
           [
             "1673",
-            218
+            249
           ],
           [
             "1669",
-            200
+            218
           ],
           [
             "1672",
-            192
-          ],
-          [
-            "1671",
-            80
+            165
           ],
           [
             "1670",
-            74
+            53
+          ],
+          [
+            "1671",
+            51
           ],
           [
             "1668",
-            3
+            5
           ]
         ],
         "user_type_counts": [
           [
-            "老用户",
-            1180
+            "新用户",
+            1421
           ],
           [
-            "新用户",
-            820
+            "老用户",
+            579
           ]
         ],
         "source_counts": [
@@ -1310,8 +1320,8 @@
         "unique_orgs": 172,
         "paid_users": 1,
         "paid_orgs": 2,
-        "return_visit_users": 21,
-        "return_visit_rate": 12.2,
+        "return_visit_users": 26,
+        "return_visit_rate": 15.1,
         "paid_rate": 0.6,
         "daily": [
           {
