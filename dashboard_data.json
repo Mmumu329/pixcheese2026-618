@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-05-15T17:07:10",
+    "updated_at": "2026-05-15T17:17:17",
     "source": "Metabase collection 474",
     "default_dataset": "y2026_618"
   },
@@ -10,7 +10,7 @@
         "campaign": "25 年双 11 大促（真实数据，作为 618 同期基线）",
         "campaign_key": "y2025_d11",
         "date_range": "2025-10-17 → 2025-11-14",
-        "updated_at": "2026-05-15T17:07:10"
+        "updated_at": "2026-05-15T17:17:17"
       },
       "core": {
         "total_gmv": 673138,
@@ -269,11 +269,6 @@
         }
       ],
       "phase": {
-        "蓄水期": {
-          "gmv": 141124,
-          "orders": 666,
-          "users": 557
-        },
         "预热期": {
           "gmv": 290962,
           "orders": 1305,
@@ -283,6 +278,11 @@
           "gmv": 240805,
           "orders": 852,
           "users": 730
+        },
+        "蓄水期": {
+          "gmv": 141124,
+          "orders": 666,
+          "users": 557
         },
         "返场期": {
           "gmv": 247,
@@ -811,7 +811,7 @@
         "campaign": "26 年 618 大促（实时数据）",
         "campaign_key": "y2026_618",
         "date_range": "2026-05-13 → 2026-05-13",
-        "updated_at": "2026-05-15T17:07:10"
+        "updated_at": "2026-05-15T17:17:17"
       },
       "core": {
         "total_gmv": 0,
@@ -1136,8 +1136,7 @@
         "event_total": 2000,
         "event_date_range": "2026-05-13 → 2026-05-15",
         "funnel": {
-          "exposure": 636,
-          "click": 107
+          "exposure": 565
         },
         "reserve_count": 0,
         "daily_reserve": [],
@@ -1146,85 +1145,64 @@
         "action_counts": [
           [
             "screen_view",
-            1768
-          ],
-          [
-            "element_click",
-            232
+            2000
           ]
         ],
         "screen_counts": [
           [
             "home_page",
-            1477
+            1868
           ],
           [
             "open_screen",
-            291
-          ],
-          [
-            "未知",
-            232
+            132
           ]
         ],
-        "element_counts": [
-          [
-            "top_banner_click",
-            232
-          ]
-        ],
+        "element_counts": [],
         "channel_counts": [
           [
             "未知",
-            1296
-          ],
-          [
-            "1673",
-            287
+            1194
           ],
           [
             "1669",
-            193
+            242
+          ],
+          [
+            "1673",
+            238
           ],
           [
             "1672",
-            131
+            159
           ],
           [
             "1671",
-            56
+            78
           ],
           [
             "1670",
-            31
+            78
           ],
           [
             "1668",
-            4
-          ],
-          [
-            "1512",
-            2
+            11
           ]
         ],
         "user_type_counts": [
           [
-            "新用户",
-            1139
+            "老用户",
+            1121
           ],
           [
-            "老用户",
-            861
+            "新用户",
+            879
           ]
         ],
         "source_counts": [
           [
             "app",
-            1768
-          ],
-          [
-            "web",
-            232
+            2000
           ]
         ],
         "quality": {
@@ -1236,13 +1214,13 @@
         }
       },
       "reservations": {
-        "total": 249,
+        "total": 250,
         "unique_users": 176,
         "unique_orgs": 176,
         "paid_users": 1,
         "paid_orgs": 1,
-        "return_visit_users": 18,
-        "return_visit_rate": 10.2,
+        "return_visit_users": 27,
+        "return_visit_rate": 15.3,
         "paid_rate": 0.6,
         "daily": [
           {
@@ -1263,7 +1241,7 @@
           },
           {
             "date": "2026-05-15",
-            "count": 33
+            "count": 34
           }
         ],
         "source_rank": [
@@ -1297,7 +1275,7 @@
           },
           {
             "name": "iOS 端 banner",
-            "count": 7
+            "count": 8
           },
           {
             "name": "社群-毛毛",
@@ -1327,7 +1305,7 @@
           },
           {
             "name": "大促活动｜AI畅修券1张（非会员）",
-            "count": 7
+            "count": 8
           },
           {
             "name": "大促活动｜精修臻享会员",
@@ -1350,7 +1328,7 @@
             "count": 3
           },
           {
-            "name": "大促活动｜AI畅修券30张（非会员）",
+            "name": "大促活动｜畅修旗舰会员",
             "count": 2
           }
         ]
@@ -1416,8 +1394,8 @@
     "reserve_detail": {
       "card_id": 8567,
       "status": "completed",
-      "row_count": 249,
-      "rows_returned": 249,
+      "row_count": 250,
+      "rows_returned": 250,
       "rows_truncated": null
     },
     "invite_detail": {
