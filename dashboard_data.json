@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-05-15T14:48:10",
+    "updated_at": "2026-05-15T14:58:17",
     "source": "Metabase collection 474",
     "default_dataset": "y2026_618"
   },
@@ -10,7 +10,7 @@
         "campaign": "25 年双 11 大促（真实数据，作为 618 同期基线）",
         "campaign_key": "y2025_d11",
         "date_range": "2025-10-17 → 2025-11-14",
-        "updated_at": "2026-05-15T14:48:10"
+        "updated_at": "2026-05-15T14:58:17"
       },
       "core": {
         "total_gmv": 673138,
@@ -811,7 +811,7 @@
         "campaign": "26 年 618 大促（实时数据）",
         "campaign_key": "y2026_618",
         "date_range": "2026-05-13 → 2026-05-13",
-        "updated_at": "2026-05-15T14:48:10"
+        "updated_at": "2026-05-15T14:58:17"
       },
       "core": {
         "total_gmv": 12177,
@@ -1044,13 +1044,13 @@
       ],
       "member_rank": [
         {
-          "name": "畅修臻享会员",
+          "name": "精修臻享会员",
           "gmv": 1988,
           "orders": 1,
           "price": 1988.0
         },
         {
-          "name": "精修臻享会员",
+          "name": "畅修臻享会员",
           "gmv": 1988,
           "orders": 1,
           "price": 1988.0
@@ -1223,7 +1223,7 @@
         "event_total": 2000,
         "event_date_range": "2026-05-13 → 2026-05-15",
         "funnel": {
-          "exposure": 847
+          "exposure": 413
         },
         "reserve_count": 0,
         "daily_reserve": [],
@@ -1238,52 +1238,52 @@
         "screen_counts": [
           [
             "home_page",
-            1687
+            1939
           ],
           [
             "open_screen",
-            313
+            61
           ]
         ],
         "element_counts": [],
         "channel_counts": [
           [
             "未知",
-            1249
-          ],
-          [
-            "1669",
-            251
+            1233
           ],
           [
             "1673",
-            247
+            244
+          ],
+          [
+            "1669",
+            210
           ],
           [
             "1672",
-            136
-          ],
-          [
-            "1670",
-            56
+            153
           ],
           [
             "1671",
-            51
+            87
+          ],
+          [
+            "1670",
+            69
           ],
           [
             "1668",
-            10
+            4
           ]
         ],
         "user_type_counts": [
           [
-            "新用户",
-            1210
+            "老用户",
+            1321
           ],
           [
-            "老用户",
-            790
+            "新用户",
+            679
           ]
         ],
         "source_counts": [
@@ -1301,13 +1301,13 @@
         }
       },
       "reservations": {
-        "total": 240,
-        "unique_users": 169,
-        "unique_orgs": 169,
+        "total": 241,
+        "unique_users": 170,
+        "unique_orgs": 170,
         "paid_users": 1,
         "paid_orgs": 2,
-        "return_visit_users": 33,
-        "return_visit_rate": 19.5,
+        "return_visit_users": 20,
+        "return_visit_rate": 11.8,
         "paid_rate": 0.6,
         "daily": [
           {
@@ -1328,13 +1328,13 @@
           },
           {
             "date": "2026-05-15",
-            "count": 24
+            "count": 25
           }
         ],
         "source_rank": [
           {
             "name": "社群-江江",
-            "count": 68
+            "count": 69
           },
           {
             "name": "端内弹窗",
@@ -1372,7 +1372,7 @@
         "product_rank": [
           {
             "name": "大促活动｜精修体验会员",
-            "count": 83
+            "count": 84
           },
           {
             "name": "大促活动｜精修基础会员",
@@ -1415,7 +1415,7 @@
             "count": 3
           },
           {
-            "name": "大促活动｜畅修旗舰会员",
+            "name": "大促活动｜AI畅修券30张（非会员）",
             "count": 2
           }
         ]
@@ -1481,8 +1481,8 @@
     "reserve_detail": {
       "card_id": 8567,
       "status": "completed",
-      "row_count": 240,
-      "rows_returned": 240,
+      "row_count": 241,
+      "rows_returned": 241,
       "rows_truncated": null
     },
     "invite_detail": {
