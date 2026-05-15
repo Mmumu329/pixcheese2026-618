@@ -476,6 +476,78 @@ def aggregate_events(rows, quality):
     }
 
 
+SOURCE_MAP = {
+    "1227": "官网",
+    "1824": "安卓端 banner",
+    "1825": "iOS 端 banner",
+    "1826": "小程序",
+    "1827": "短信",
+    "1828": "push",
+    "1829": "端内弹窗",
+    "1294": "社群-江江",
+    "1295": "社群-毛毛",
+    "1296": "社群-小希",
+    "1858": "老带新",
+    "1830": "视频号直播",
+}
+
+
+def date_part(value):
+    return text(value)[:10]
+
+
+def aggregate_reservations(rows, orders_2026, events):
+    active = [r for r in rows if not r.get("deleted_at")]
+    user_ids = {text(r.get("user_id")) for r in active if valid_uid(r.get("user_id"))}
+    org_ids = {text(r.get("org_id")) for r in active if text(r.get("org_id"))}
+    paid_user_ids = {text(r.get("user_id")) for r in orders_2026 if valid_uid(r.get("user_id"))}
+    paid_org_ids = {text(r.get("org_id")) for r in orders_2026 if text(r.get("org_id"))}
+    visit_user_ids = {
+        text(r.get("user_id"))
+        for r in events
+        if valid_uid(r.get("user_id")) and ("may-sale/index" in text(r.get("url_path")) or text(r.get("action")) in ("page_view", "module_view", "screen_view"))
+    }
+
+    daily = Counter(date_part(r.get("created_at")) for r in active if date_part(r.get("created_at")))
+    source = Counter(SOURCE_MAP.get(text(r.get("source_id")), text(r.get("source_id")) or "未知") for r in active)
+    product = Counter(text(r.get("product_name_snapshot")) or "未知套餐" for r in active)
+
+    paid_reserved_users = user_ids & paid_user_ids
+    paid_reserved_orgs = org_ids & paid_org_ids
+    returned_users = user_ids & visit_user_ids
+
+    return {
+        "total": len(active),
+        "unique_users": len(user_ids),
+        "unique_orgs": len(org_ids),
+        "paid_users": len(paid_reserved_users),
+        "paid_orgs": len(paid_reserved_orgs),
+        "return_visit_users": len(returned_users),
+        "return_visit_rate": round(len(returned_users) / max(len(user_ids), 1) * 100, 1),
+        "paid_rate": round(len(paid_reserved_users) / max(len(user_ids), 1) * 100, 1),
+        "daily": [{"date": k, "count": v} for k, v in sorted(daily.items())],
+        "source_rank": [{"name": k, "count": v} for k, v in source.most_common(12)],
+        "product_rank": [{"name": k, "count": v} for k, v in product.most_common(12)],
+    }
+
+
+def aggregate_invites(rows):
+    active = [r for r in rows if not r.get("deleted_at")]
+    inviters = {text(r.get("invite_user_id")) for r in active if valid_uid(r.get("invite_user_id"))}
+    helpers = {text(r.get("user_id")) for r in active if valid_uid(r.get("user_id"))}
+    helper_orgs = {text(r.get("org_id")) for r in active if text(r.get("org_id")) and text(r.get("org_id")) != "0"}
+    daily = Counter(date_part(r.get("created_at")) for r in active if date_part(r.get("created_at")))
+    status = Counter(text(r.get("status")) or "未知" for r in active)
+    return {
+        "total": len(active),
+        "inviter_users": len(inviters),
+        "helper_users": len(helpers),
+        "helper_orgs": len(helper_orgs),
+        "status_counts": [{"status": k, "count": v} for k, v in status.most_common()],
+        "daily": [{"date": k, "count": v} for k, v in sorted(daily.items())],
+    }
+
+
 def main():
     print(f"[{datetime.now()}] 开始更新看板数据...")
     sid = login()
@@ -491,6 +563,8 @@ def main():
     y2025 = aggregate_orders(orders_2025, "y2025_d11", "25 年双 11 大促（真实数据，作为 618 同期基线）")
     y2026 = aggregate_orders(orders_2026, "y2026_618", "26 年 618 大促（实时数据）")
     y2026["events"] = aggregate_events(events, event_quality)
+    y2026["reservations"] = aggregate_reservations(reserve_rows, orders_2026, events)
+    y2026["invites"] = aggregate_invites(invite_rows)
 
     data_quality = {
         "orders": order_quality,
@@ -500,7 +574,7 @@ def main():
         "notes": [
             "GitHub Actions 海外 runner 无法访问 Metabase，自动更新由本机 LaunchAgent 推送 dashboard_data.json。",
             "8565 普通 query 接口最多返回 2000 行；如 rows_truncated=2000，事件数据为抽样/截断结果，需要 Metabase 管理员开放下载或提供聚合模型。",
-            "8567/8568 当前账号提示 missing-required-permissions，预约/邀请明细暂不能作为完整口径。",
+            "8567 预约明细与 8568 邀请明细已接入；若后续口径变更，以数据团队聚合模型为准。",
         ],
     }
 
@@ -508,7 +582,7 @@ def main():
         "meta": {
             "updated_at": datetime.now().isoformat(timespec="seconds"),
             "source": "Metabase collection 474",
-            "default_dataset": "y2025_d11",
+            "default_dataset": "y2026_618",
         },
         "datasets": {
             "y2025_d11": y2025,
