@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-05-15T11:40:23",
+    "updated_at": "2026-05-15T11:52:11",
     "source": "Metabase collection 474",
     "default_dataset": "y2026_618"
   },
@@ -10,7 +10,7 @@
         "campaign": "25 年双 11 大促（真实数据，作为 618 同期基线）",
         "campaign_key": "y2025_d11",
         "date_range": "2025-10-17 → 2025-11-14",
-        "updated_at": "2026-05-15T11:40:23"
+        "updated_at": "2026-05-15T11:52:11"
       },
       "core": {
         "total_gmv": 673138,
@@ -269,20 +269,20 @@
         }
       ],
       "phase": {
-        "蓄水期": {
-          "gmv": 141124,
-          "orders": 666,
-          "users": 557
+        "正式期": {
+          "gmv": 240805,
+          "orders": 852,
+          "users": 730
         },
         "预热期": {
           "gmv": 290962,
           "orders": 1305,
           "users": 1040
         },
-        "正式期": {
-          "gmv": 240805,
-          "orders": 852,
-          "users": 730
+        "蓄水期": {
+          "gmv": 141124,
+          "orders": 666,
+          "users": 557
         },
         "返场期": {
           "gmv": 247,
@@ -811,7 +811,7 @@
         "campaign": "26 年 618 大促（实时数据）",
         "campaign_key": "y2026_618",
         "date_range": "2026-05-13 → 2026-05-13",
-        "updated_at": "2026-05-15T11:40:23"
+        "updated_at": "2026-05-15T11:52:11"
       },
       "core": {
         "total_gmv": 12177,
@@ -1068,13 +1068,13 @@
           "price": 1188.0
         },
         {
-          "name": "精修基础会员",
+          "name": "畅修基础会员",
           "gmv": 388,
           "orders": 1,
           "price": 388.0
         },
         {
-          "name": "畅修基础会员",
+          "name": "精修基础会员",
           "gmv": 388,
           "orders": 1,
           "price": 388.0
@@ -1223,8 +1223,7 @@
         "event_total": 2000,
         "event_date_range": "2026-05-13 → 2026-05-15",
         "funnel": {
-          "exposure": 958,
-          "click": 59
+          "exposure": 628
         },
         "reserve_count": 0,
         "daily_reserve": [],
@@ -1232,86 +1231,61 @@
         "new_user_gift": 0,
         "action_counts": [
           [
-            "module_view",
-            1738
-          ],
-          [
             "screen_view",
-            162
-          ],
-          [
-            "element_click",
-            100
+            2000
           ]
         ],
         "screen_counts": [
           [
             "home_page",
-            1738
-          ],
-          [
-            "open_screen",
-            162
-          ],
-          [
-            "未知",
-            100
+            2000
           ]
         ],
-        "element_counts": [
-          [
-            "top_banner_click",
-            100
-          ]
-        ],
+        "element_counts": [],
         "channel_counts": [
           [
             "未知",
-            1316
-          ],
-          [
-            "1673",
-            189
-          ],
-          [
-            "1672",
-            180
+            1191
           ],
           [
             "1669",
-            166
+            281
+          ],
+          [
+            "1673",
+            245
+          ],
+          [
+            "1672",
+            141
           ],
           [
             "1671",
-            87
+            68
           ],
           [
             "1670",
-            61
+            66
           ],
           [
             "1668",
-            1
+            8
           ]
         ],
         "user_type_counts": [
           [
-            "新用户",
-            1559
+            "老用户",
+            1013
           ],
           [
-            "老用户",
-            441
+            "新用户",
+            987
           ]
         ],
         "source_counts": [
           [
             "app",
-            1900
-          ],
-          [
-            "web",
-            100
+            2000
           ]
         ],
         "quality": {
@@ -1323,13 +1297,13 @@
         }
       },
       "reservations": {
-        "total": 229,
+        "total": 230,
         "unique_users": 161,
         "unique_orgs": 161,
         "paid_users": 1,
         "paid_orgs": 2,
-        "return_visit_users": 29,
-        "return_visit_rate": 18.0,
+        "return_visit_users": 20,
+        "return_visit_rate": 12.4,
         "paid_rate": 0.6,
         "daily": [
           {
@@ -1350,7 +1324,7 @@
           },
           {
             "date": "2026-05-15",
-            "count": 13
+            "count": 14
           }
         ],
         "source_rank": [
@@ -1372,7 +1346,7 @@
           },
           {
             "name": "官网",
-            "count": 17
+            "count": 18
           },
           {
             "name": "老带新",
@@ -1414,7 +1388,7 @@
           },
           {
             "name": "大促活动｜AI畅修券1张（非会员）",
-            "count": 6
+            "count": 7
           },
           {
             "name": "大促活动｜精修臻享会员",
@@ -1433,11 +1407,11 @@
             "count": 3
           },
           {
-            "name": "大促活动｜AI畅修券20张（非会员）",
+            "name": "大促活动｜AI畅修券30张（非会员）",
             "count": 2
           },
           {
-            "name": "大促活动｜AI畅修券20张",
+            "name": "大促活动｜畅修旗舰会员",
             "count": 2
           }
         ]
@@ -1503,8 +1477,8 @@
     "reserve_detail": {
       "card_id": 8567,
       "status": "completed",
-      "row_count": 229,
-      "rows_returned": 229,
+      "row_count": 230,
+      "rows_returned": 230,
       "rows_truncated": null
     },
     "invite_detail": {
