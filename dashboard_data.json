@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-05-19T06:50:53",
+    "updated_at": "2026-05-19T07:01:00",
     "source": "Metabase collection 474",
     "default_dataset": "y2026_618"
   },
@@ -10,7 +10,7 @@
         "campaign": "25 年双 11 大促（真实数据，作为 618 同期基线）",
         "campaign_key": "y2025_d11",
         "date_range": "2025-10-17 → 2025-11-14",
-        "updated_at": "2026-05-19T06:50:53"
+        "updated_at": "2026-05-19T07:01:00"
       },
       "core": {
         "total_gmv": 673138,
@@ -269,6 +269,11 @@
         }
       ],
       "phase": {
+        "蓄水期": {
+          "gmv": 141124,
+          "orders": 666,
+          "users": 557
+        },
         "预热期": {
           "gmv": 290962,
           "orders": 1305,
@@ -278,11 +283,6 @@
           "gmv": 240805,
           "orders": 852,
           "users": 730
-        },
-        "蓄水期": {
-          "gmv": 141124,
-          "orders": 666,
-          "users": 557
         },
         "返场期": {
           "gmv": 247,
@@ -811,7 +811,7 @@
         "campaign": "26 年 618 大促（实时数据）",
         "campaign_key": "y2026_618",
         "date_range": "2026-05-13 → 2026-05-19",
-        "updated_at": "2026-05-19T06:50:53"
+        "updated_at": "2026-05-19T07:01:00"
       },
       "core": {
         "total_gmv": 65767,
@@ -1109,7 +1109,7 @@
           "price": 2970.0
         },
         {
-          "name": "畅修体验会员",
+          "name": "精修体验会员 iOS",
           "gmv": 2072,
           "orders": 14,
           "price": 148.0
@@ -1352,9 +1352,9 @@
       },
       "events": {
         "event_total": 2000,
-        "event_date_range": "2026-05-13 → 2026-05-19",
+        "event_date_range": "2026-05-13 → 2026-05-18",
         "funnel": {
-          "exposure": 1201
+          "exposure": 1107
         },
         "reserve_count": 0,
         "daily_reserve": [],
@@ -1363,62 +1363,62 @@
         "action_counts": [
           [
             "module_view",
-            1803
+            1244
           ],
           [
             "screen_view",
-            197
+            756
           ]
         ],
         "screen_counts": [
           [
             "home_page",
-            1803
+            1779
           ],
           [
             "open_screen",
-            197
+            221
           ]
         ],
         "element_counts": [],
         "channel_counts": [
           [
             "未知",
-            1272
-          ],
-          [
-            "1669",
-            206
+            1257
           ],
           [
             "1673",
-            181
+            208
+          ],
+          [
+            "1669",
+            197
           ],
           [
             "1672",
-            173
-          ],
-          [
-            "1670",
-            87
+            188
           ],
           [
             "1671",
-            73
+            70
+          ],
+          [
+            "1670",
+            67
           ],
           [
             "1668",
-            8
+            13
           ]
         ],
         "user_type_counts": [
           [
             "新用户",
-            1567
+            1434
           ],
           [
             "老用户",
-            433
+            566
           ]
         ],
         "source_counts": [
@@ -1441,8 +1441,8 @@
         "unique_orgs": 275,
         "paid_users": 100,
         "paid_orgs": 100,
-        "return_visit_users": 44,
-        "return_visit_rate": 15.9,
+        "return_visit_users": 43,
+        "return_visit_rate": 15.6,
         "paid_rate": 36.2,
         "daily": [
           {
@@ -1550,11 +1550,11 @@
             "count": 5
           },
           {
-            "name": "大促活动｜畅修旗舰会员",
+            "name": "大促活动｜AI畅修券10张",
             "count": 5
           },
           {
-            "name": "大促活动｜AI畅修券10张",
+            "name": "大促活动｜畅修旗舰会员",
             "count": 5
           },
           {
@@ -1562,7 +1562,7 @@
             "count": 4
           },
           {
-            "name": "大促活动｜AI畅修券10张（非会员）",
+            "name": "大促活动｜AI畅修券30张（会员）",
             "count": 4
           }
         ]
