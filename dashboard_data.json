@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-05-19T07:11:06",
+    "updated_at": "2026-05-19T07:21:12",
     "source": "Metabase collection 474",
     "default_dataset": "y2026_618"
   },
@@ -10,7 +10,7 @@
         "campaign": "25 年双 11 大促（真实数据，作为 618 同期基线）",
         "campaign_key": "y2025_d11",
         "date_range": "2025-10-17 → 2025-11-14",
-        "updated_at": "2026-05-19T07:11:06"
+        "updated_at": "2026-05-19T07:21:12"
       },
       "core": {
         "total_gmv": 673138,
@@ -269,20 +269,20 @@
         }
       ],
       "phase": {
-        "蓄水期": {
-          "gmv": 141124,
-          "orders": 666,
-          "users": 557
+        "预热期": {
+          "gmv": 290962,
+          "orders": 1305,
+          "users": 1040
         },
         "正式期": {
           "gmv": 240805,
           "orders": 852,
           "users": 730
         },
-        "预热期": {
-          "gmv": 290962,
-          "orders": 1305,
-          "users": 1040
+        "蓄水期": {
+          "gmv": 141124,
+          "orders": 666,
+          "users": 557
         },
         "返场期": {
           "gmv": 247,
@@ -811,7 +811,7 @@
         "campaign": "26 年 618 大促（实时数据）",
         "campaign_key": "y2026_618",
         "date_range": "2026-05-13 → 2026-05-19",
-        "updated_at": "2026-05-19T07:11:06"
+        "updated_at": "2026-05-19T07:21:12"
       },
       "core": {
         "total_gmv": 65767,
@@ -1354,8 +1354,7 @@
         "event_total": 2000,
         "event_date_range": "2026-05-13 → 2026-05-19",
         "funnel": {
-          "exposure": 401,
-          "click": 135
+          "exposure": 535
         },
         "reserve_count": 0,
         "daily_reserve": [],
@@ -1364,93 +1363,68 @@
         "action_counts": [
           [
             "screen_view",
-            1540
+            1951
           ],
           [
-            "element_click",
-            460
+            "module_view",
+            49
           ]
         ],
         "screen_counts": [
           [
             "home_page",
-            1211
-          ],
-          [
-            "未知",
-            405
+            1884
           ],
           [
             "open_screen",
-            384
+            116
           ]
         ],
-        "element_counts": [
-          [
-            "top_banner_click",
-            405
-          ],
-          [
-            "home_appbar_button",
-            55
-          ]
-        ],
+        "element_counts": [],
         "channel_counts": [
           [
             "未知",
-            1392
+            1222
           ],
           [
             "1669",
-            175
+            228
           ],
           [
             "1673",
-            167
+            212
           ],
           [
             "1672",
-            128
+            186
           ],
           [
             "1671",
-            65
+            74
           ],
           [
             "1670",
-            64
+            73
           ],
           [
             "1668",
-            6
-          ],
-          [
-            "社群-江江",
-            2
-          ],
-          [
-            "社群-小希",
-            1
+            5
           ]
         ],
         "user_type_counts": [
           [
             "老用户",
-            1186
+            1257
           ],
           [
             "新用户",
-            814
+            743
           ]
         ],
         "source_counts": [
           [
             "app",
-            1595
-          ],
-          [
-            "web",
-            405
+            2000
           ]
         ],
         "quality": {
@@ -1467,8 +1441,8 @@
         "unique_orgs": 275,
         "paid_users": 100,
         "paid_orgs": 100,
-        "return_visit_users": 26,
-        "return_visit_rate": 9.4,
+        "return_visit_users": 33,
+        "return_visit_rate": 12.0,
         "paid_rate": 36.2,
         "daily": [
           {
@@ -1588,7 +1562,7 @@
             "count": 4
           },
           {
-            "name": "大促活动｜AI畅修券30张（会员）",
+            "name": "大促活动｜AI畅修券20张",
             "count": 4
           }
         ]
