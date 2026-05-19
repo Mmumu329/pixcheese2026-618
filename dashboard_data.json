@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-05-20T01:53:32",
+    "updated_at": "2026-05-20T02:03:41",
     "source": "Metabase collection 474",
     "default_dataset": "y2026_618"
   },
@@ -10,7 +10,7 @@
         "campaign": "25 年双 11 大促（真实数据，作为 618 同期基线）",
         "campaign_key": "y2025_d11",
         "date_range": "2025-10-17 → 2025-11-14",
-        "updated_at": "2026-05-20T01:53:32"
+        "updated_at": "2026-05-20T02:03:41"
       },
       "core": {
         "total_gmv": 673138,
@@ -269,11 +269,6 @@
         }
       ],
       "phase": {
-        "正式期": {
-          "gmv": 240805,
-          "orders": 852,
-          "users": 730
-        },
         "蓄水期": {
           "gmv": 141124,
           "orders": 666,
@@ -283,6 +278,11 @@
           "gmv": 290962,
           "orders": 1305,
           "users": 1040
+        },
+        "正式期": {
+          "gmv": 240805,
+          "orders": 852,
+          "users": 730
         },
         "返场期": {
           "gmv": 247,
@@ -811,7 +811,7 @@
         "campaign": "26 年 618 大促（实时数据）",
         "campaign_key": "y2026_618",
         "date_range": "2026-05-13 → 2026-05-20",
-        "updated_at": "2026-05-20T01:53:32"
+        "updated_at": "2026-05-20T02:03:41"
       },
       "core": {
         "total_gmv": 87299,
@@ -1144,16 +1144,16 @@
           "price": 1988.0
         },
         {
-          "name": "AI畅修券20张",
-          "gmv": 1980,
-          "orders": 1,
-          "price": 1980.0
-        },
-        {
           "name": "AI畅修券1张 iOS",
           "gmv": 1980,
           "orders": 20,
           "price": 99.0
+        },
+        {
+          "name": "AI畅修券20张",
+          "gmv": 1980,
+          "orders": 1,
+          "price": 1980.0
         },
         {
           "name": "【电商】AI畅修券1张",
@@ -1373,10 +1373,9 @@
       },
       "events": {
         "event_total": 2000,
-        "event_date_range": "2026-05-13 → 2026-05-20",
+        "event_date_range": "2026-05-13 → 2026-05-19",
         "funnel": {
-          "click": 102,
-          "exposure": 469
+          "exposure": 1127
         },
         "reserve_count": 0,
         "daily_reserve": [],
@@ -1384,86 +1383,61 @@
         "new_user_gift": 0,
         "action_counts": [
           [
-            "screen_view",
-            1762
-          ],
-          [
-            "element_click",
-            238
+            "module_view",
+            2000
           ]
         ],
         "screen_counts": [
           [
             "home_page",
-            1469
-          ],
-          [
-            "open_screen",
-            413
-          ],
-          [
-            "未知",
-            118
+            2000
           ]
         ],
-        "element_counts": [
-          [
-            "home_appbar_button",
-            120
-          ],
-          [
-            "top_banner_click",
-            118
-          ]
-        ],
+        "element_counts": [],
         "channel_counts": [
           [
             "未知",
-            1367
+            1180
           ],
           [
             "1669",
-            194
-          ],
-          [
-            "1673",
-            170
+            256
           ],
           [
             "1672",
-            131
+            181
           ],
           [
-            "1671",
-            75
+            "1673",
+            175
           ],
           [
             "1670",
-            58
+            105
+          ],
+          [
+            "1671",
+            91
           ],
           [
             "1668",
-            5
+            12
           ]
         ],
         "user_type_counts": [
           [
-            "老用户",
-            1172
+            "新用户",
+            1681
           ],
           [
-            "新用户",
-            828
+            "老用户",
+            319
           ]
         ],
         "source_counts": [
           [
             "app",
-            1882
-          ],
-          [
-            "web",
-            118
+            2000
           ]
         ],
         "quality": {
@@ -1480,8 +1454,8 @@
         "unique_orgs": 275,
         "paid_users": 110,
         "paid_orgs": 110,
-        "return_visit_users": 37,
-        "return_visit_rate": 13.4,
+        "return_visit_users": 35,
+        "return_visit_rate": 12.7,
         "paid_rate": 39.9,
         "daily": [
           {
