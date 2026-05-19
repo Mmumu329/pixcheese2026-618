@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-05-19T23:11:19",
+    "updated_at": "2026-05-19T23:21:33",
     "source": "Metabase collection 474",
     "default_dataset": "y2026_618"
   },
@@ -10,7 +10,7 @@
         "campaign": "25 年双 11 大促（真实数据，作为 618 同期基线）",
         "campaign_key": "y2025_d11",
         "date_range": "2025-10-17 → 2025-11-14",
-        "updated_at": "2026-05-19T23:11:19"
+        "updated_at": "2026-05-19T23:21:33"
       },
       "core": {
         "total_gmv": 673138,
@@ -269,6 +269,11 @@
         }
       ],
       "phase": {
+        "预热期": {
+          "gmv": 290962,
+          "orders": 1305,
+          "users": 1040
+        },
         "正式期": {
           "gmv": 240805,
           "orders": 852,
@@ -278,11 +283,6 @@
           "gmv": 141124,
           "orders": 666,
           "users": 557
-        },
-        "预热期": {
-          "gmv": 290962,
-          "orders": 1305,
-          "users": 1040
         },
         "返场期": {
           "gmv": 247,
@@ -811,7 +811,7 @@
         "campaign": "26 年 618 大促（实时数据）",
         "campaign_key": "y2026_618",
         "date_range": "2026-05-13 → 2026-05-19",
-        "updated_at": "2026-05-19T23:11:19"
+        "updated_at": "2026-05-19T23:21:33"
       },
       "core": {
         "total_gmv": 86460,
@@ -1366,8 +1366,8 @@
         "event_total": 2000,
         "event_date_range": "2026-05-13 → 2026-05-19",
         "funnel": {
-          "exposure": 1023,
-          "click": 106
+          "exposure": 1133,
+          "click": 18
         },
         "reserve_count": 0,
         "daily_reserve": [],
@@ -1376,93 +1376,77 @@
         "action_counts": [
           [
             "module_view",
-            1339
+            1761
           ],
           [
             "screen_view",
-            503
+            209
           ],
           [
             "element_click",
-            158
+            30
           ]
         ],
         "screen_counts": [
           [
             "home_page",
-            1355
+            1791
           ],
           [
             "open_screen",
-            503
-          ],
-          [
-            "未知",
-            142
+            209
           ]
         ],
         "element_counts": [
           [
-            "top_banner_click",
-            142
-          ],
-          [
             "home_appbar_button",
-            16
+            30
           ]
         ],
         "channel_counts": [
           [
             "未知",
-            1355
-          ],
-          [
-            "1673",
-            186
-          ],
-          [
-            "1672",
-            181
+            1279
           ],
           [
             "1669",
-            165
+            188
           ],
           [
-            "1671",
-            59
+            "1672",
+            184
+          ],
+          [
+            "1673",
+            179
           ],
           [
             "1670",
-            44
+            89
+          ],
+          [
+            "1671",
+            76
           ],
           [
             "1668",
-            8
-          ],
-          [
-            "1512",
-            2
+            5
           ]
         ],
         "user_type_counts": [
           [
             "新用户",
-            1321
+            1542
           ],
           [
             "老用户",
-            679
+            458
           ]
         ],
         "source_counts": [
           [
             "app",
-            1858
-          ],
-          [
-            "web",
-            142
+            2000
           ]
         ],
         "quality": {
@@ -1479,8 +1463,8 @@
         "unique_orgs": 275,
         "paid_users": 110,
         "paid_orgs": 110,
-        "return_visit_users": 34,
-        "return_visit_rate": 12.3,
+        "return_visit_users": 38,
+        "return_visit_rate": 13.8,
         "paid_rate": 39.9,
         "daily": [
           {
@@ -1584,7 +1568,7 @@
             "count": 7
           },
           {
-            "name": "大促活动｜AI畅修券10张",
+            "name": "大促活动｜畅修旗舰会员",
             "count": 5
           },
           {
@@ -1592,7 +1576,7 @@
             "count": 5
           },
           {
-            "name": "大促活动｜畅修旗舰会员",
+            "name": "大促活动｜AI畅修券10张",
             "count": 5
           },
           {
