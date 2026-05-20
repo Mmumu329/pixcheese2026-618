@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-05-21T06:00:37",
+    "updated_at": "2026-05-21T06:10:46",
     "source": "Metabase collection 474",
     "default_dataset": "y2026_618"
   },
@@ -10,7 +10,7 @@
         "campaign": "25 年双 11 大促（真实数据，作为 618 同期基线）",
         "campaign_key": "y2025_d11",
         "date_range": "2025-10-17 → 2025-11-14",
-        "updated_at": "2026-05-21T06:00:37"
+        "updated_at": "2026-05-21T06:10:46"
       },
       "core": {
         "total_gmv": 673138,
@@ -269,15 +269,15 @@
         }
       ],
       "phase": {
-        "正式期": {
-          "gmv": 240805,
-          "orders": 852,
-          "users": 730
-        },
         "预热期": {
           "gmv": 290962,
           "orders": 1305,
           "users": 1040
+        },
+        "正式期": {
+          "gmv": 240805,
+          "orders": 852,
+          "users": 730
         },
         "蓄水期": {
           "gmv": 141124,
@@ -811,7 +811,7 @@
         "campaign": "26 年 618 大促（实时数据）",
         "campaign_key": "y2026_618",
         "date_range": "2026-05-13 → 2026-05-21",
-        "updated_at": "2026-05-21T06:00:37"
+        "updated_at": "2026-05-21T06:10:46"
       },
       "core": {
         "total_gmv": 108034,
@@ -1388,9 +1388,10 @@
       },
       "events": {
         "event_total": 2000,
-        "event_date_range": "2026-05-13 → 2026-05-18",
+        "event_date_range": "2026-05-13 → 2026-05-21",
         "funnel": {
-          "exposure": 286
+          "exposure": 965,
+          "click": 32
         },
         "reserve_count": 0,
         "daily_reserve": [],
@@ -1399,58 +1400,71 @@
         "action_counts": [
           [
             "screen_view",
-            1837
+            1931
+          ],
+          [
+            "element_click",
+            37
           ],
           [
             "module_view",
-            163
+            32
           ]
         ],
         "screen_counts": [
           [
             "home_page",
-            2000
+            1606
+          ],
+          [
+            "open_screen",
+            394
           ]
         ],
-        "element_counts": [],
+        "element_counts": [
+          [
+            "home_appbar_button",
+            37
+          ]
+        ],
         "channel_counts": [
           [
             "未知",
-            1223
+            1221
           ],
           [
             "1669",
-            234
+            246
           ],
           [
             "1673",
-            187
+            222
           ],
           [
             "1672",
-            164
-          ],
-          [
-            "1671",
-            90
+            177
           ],
           [
             "1670",
-            88
+            65
+          ],
+          [
+            "1671",
+            56
           ],
           [
             "1668",
-            14
+            13
           ]
         ],
         "user_type_counts": [
           [
-            "老用户",
-            1708
+            "新用户",
+            1177
           ],
           [
-            "新用户",
-            292
+            "老用户",
+            823
           ]
         ],
         "source_counts": [
@@ -1473,8 +1487,8 @@
         "unique_orgs": 275,
         "paid_users": 114,
         "paid_orgs": 114,
-        "return_visit_users": 18,
-        "return_visit_rate": 6.5,
+        "return_visit_users": 50,
+        "return_visit_rate": 18.1,
         "paid_rate": 41.3,
         "daily": [
           {
