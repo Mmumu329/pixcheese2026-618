@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-05-21T05:50:30",
+    "updated_at": "2026-05-21T06:00:37",
     "source": "Metabase collection 474",
     "default_dataset": "y2026_618"
   },
@@ -10,7 +10,7 @@
         "campaign": "25 年双 11 大促（真实数据，作为 618 同期基线）",
         "campaign_key": "y2025_d11",
         "date_range": "2025-10-17 → 2025-11-14",
-        "updated_at": "2026-05-21T05:50:30"
+        "updated_at": "2026-05-21T06:00:37"
       },
       "core": {
         "total_gmv": 673138,
@@ -269,11 +269,6 @@
         }
       ],
       "phase": {
-        "蓄水期": {
-          "gmv": 141124,
-          "orders": 666,
-          "users": 557
-        },
         "正式期": {
           "gmv": 240805,
           "orders": 852,
@@ -283,6 +278,11 @@
           "gmv": 290962,
           "orders": 1305,
           "users": 1040
+        },
+        "蓄水期": {
+          "gmv": 141124,
+          "orders": 666,
+          "users": 557
         },
         "返场期": {
           "gmv": 247,
@@ -811,7 +811,7 @@
         "campaign": "26 年 618 大促（实时数据）",
         "campaign_key": "y2026_618",
         "date_range": "2026-05-13 → 2026-05-21",
-        "updated_at": "2026-05-21T05:50:30"
+        "updated_at": "2026-05-21T06:00:37"
       },
       "core": {
         "total_gmv": 108034,
@@ -1388,10 +1388,9 @@
       },
       "events": {
         "event_total": 2000,
-        "event_date_range": "2026-05-13 → 2026-05-21",
+        "event_date_range": "2026-05-13 → 2026-05-18",
         "funnel": {
-          "exposure": 878,
-          "click": 120
+          "exposure": 286
         },
         "reserve_count": 0,
         "daily_reserve": [],
@@ -1399,98 +1398,65 @@
         "new_user_gift": 0,
         "action_counts": [
           [
-            "module_view",
-            1410
-          ],
-          [
-            "element_click",
-            358
-          ],
-          [
             "screen_view",
-            232
+            1837
+          ],
+          [
+            "module_view",
+            163
           ]
         ],
         "screen_counts": [
           [
             "home_page",
-            1444
-          ],
-          [
-            "未知",
-            324
-          ],
-          [
-            "open_screen",
-            232
+            2000
           ]
         ],
-        "element_counts": [
-          [
-            "top_banner_click",
-            324
-          ],
-          [
-            "home_appbar_button",
-            34
-          ]
-        ],
+        "element_counts": [],
         "channel_counts": [
           [
             "未知",
-            1413
-          ],
-          [
-            "1672",
-            169
+            1223
           ],
           [
             "1669",
-            157
+            234
           ],
           [
             "1673",
-            133
+            187
           ],
           [
-            "1670",
-            75
+            "1672",
+            164
           ],
           [
             "1671",
-            44
+            90
+          ],
+          [
+            "1670",
+            88
           ],
           [
             "1668",
-            4
-          ],
-          [
-            "社群-江江",
-            4
-          ],
-          [
-            "社群-小希",
-            1
+            14
           ]
         ],
         "user_type_counts": [
           [
-            "新用户",
-            1498
+            "老用户",
+            1708
           ],
           [
-            "老用户",
-            502
+            "新用户",
+            292
           ]
         ],
         "source_counts": [
           [
             "app",
-            1676
-          ],
-          [
-            "web",
-            324
+            2000
           ]
         ],
         "quality": {
@@ -1507,8 +1473,8 @@
         "unique_orgs": 275,
         "paid_users": 114,
         "paid_orgs": 114,
-        "return_visit_users": 28,
-        "return_visit_rate": 10.1,
+        "return_visit_users": 18,
+        "return_visit_rate": 6.5,
         "paid_rate": 41.3,
         "daily": [
           {
