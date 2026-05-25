@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-05-25T18:28:13",
+    "updated_at": "2026-05-25T18:38:20",
     "source": "Metabase collection 474",
     "default_dataset": "y2026_618"
   },
@@ -10,7 +10,7 @@
         "campaign": "25 年双 11 大促（真实数据，作为 618 同期基线）",
         "campaign_key": "y2025_d11",
         "date_range": "2025-10-17 → 2025-11-14",
-        "updated_at": "2026-05-25T18:28:13"
+        "updated_at": "2026-05-25T18:38:20"
       },
       "core": {
         "total_gmv": 672561,
@@ -274,15 +274,15 @@
           "orders": 852,
           "users": 730
         },
-        "预热期": {
-          "gmv": 290385,
-          "orders": 1305,
-          "users": 1040
-        },
         "蓄水期": {
           "gmv": 141124,
           "orders": 666,
           "users": 557
+        },
+        "预热期": {
+          "gmv": 290385,
+          "orders": 1305,
+          "users": 1040
         },
         "返场期": {
           "gmv": 247,
@@ -811,7 +811,7 @@
         "campaign": "26 年 618 大促（实时数据）",
         "campaign_key": "y2026_618",
         "date_range": "2026-05-13 → 2026-05-25",
-        "updated_at": "2026-05-25T18:28:13"
+        "updated_at": "2026-05-25T18:38:20"
       },
       "core": {
         "total_gmv": 205991,
@@ -1424,9 +1424,9 @@
       },
       "events": {
         "event_total": 2000,
-        "event_date_range": "2026-05-13 → 2026-05-19",
+        "event_date_range": "2026-05-13 → 2026-05-16",
         "funnel": {
-          "exposure": 1224
+          "exposure": 927
         },
         "reserve_count": 0,
         "daily_reserve": [],
@@ -1434,8 +1434,12 @@
         "new_user_gift": 0,
         "action_counts": [
           [
+            "screen_view",
+            1278
+          ],
+          [
             "module_view",
-            2000
+            722
           ]
         ],
         "screen_counts": [
@@ -1448,41 +1452,41 @@
         "channel_counts": [
           [
             "未知",
-            1279
-          ],
-          [
-            "1673",
-            209
-          ],
-          [
-            "1672",
-            195
+            1191
           ],
           [
             "1669",
-            176
+            242
+          ],
+          [
+            "1673",
+            237
+          ],
+          [
+            "1672",
+            198
           ],
           [
             "1671",
-            69
+            65
           ],
           [
             "1670",
-            66
+            63
           ],
           [
             "1668",
-            6
+            4
           ]
         ],
         "user_type_counts": [
           [
             "新用户",
-            1590
+            1422
           ],
           [
             "老用户",
-            410
+            578
           ]
         ],
         "source_counts": [
@@ -1505,8 +1509,8 @@
         "unique_orgs": 275,
         "paid_users": 129,
         "paid_orgs": 129,
-        "return_visit_users": 25,
-        "return_visit_rate": 9.1,
+        "return_visit_users": 42,
+        "return_visit_rate": 15.2,
         "paid_rate": 46.7,
         "daily": [
           {
@@ -1610,7 +1614,7 @@
             "count": 7
           },
           {
-            "name": "大促活动｜AI畅修券10张",
+            "name": "大促活动｜畅修旗舰会员",
             "count": 5
           },
           {
@@ -1618,7 +1622,7 @@
             "count": 5
           },
           {
-            "name": "大促活动｜畅修旗舰会员",
+            "name": "大促活动｜AI畅修券10张",
             "count": 5
           },
           {
@@ -1632,14 +1636,14 @@
         ]
       },
       "invites": {
-        "total": 281,
-        "inviter_users": 271,
+        "total": 282,
+        "inviter_users": 272,
         "helper_users": 0,
-        "helper_orgs": 117,
+        "helper_orgs": 118,
         "status_counts": [
           {
             "status": "4",
-            "count": 215
+            "count": 216
           },
           {
             "status": "3",
@@ -1709,7 +1713,7 @@
           },
           {
             "date": "2026-05-25",
-            "count": 11
+            "count": 12
           }
         ]
       }
@@ -1739,8 +1743,8 @@
     "invite_detail": {
       "card_id": 8568,
       "status": "completed",
-      "row_count": 281,
-      "rows_returned": 281,
+      "row_count": 282,
+      "rows_returned": 282,
       "rows_truncated": null
     },
     "notes": [
