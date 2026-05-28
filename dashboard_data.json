@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-05-28T10:24:43",
+    "updated_at": "2026-05-28T11:00:21",
     "source": "Metabase collection 474",
     "default_dataset": "y2026_618"
   },
@@ -10,7 +10,7 @@
         "campaign": "25 年双 11 大促（真实数据，作为 618 同期基线）",
         "campaign_key": "y2025_d11",
         "date_range": "2025-10-17 → 2025-11-14",
-        "updated_at": "2026-05-28T10:24:43"
+        "updated_at": "2026-05-28T11:00:21"
       },
       "core": {
         "total_gmv": 672561,
@@ -19,7 +19,7 @@
         "unique_orgs": 2106,
         "aov": 319.7,
         "member_gmv": 437163,
-        "voucher_gmv": 235398,
+        "voucher_gmv": 235397,
         "member_ratio": 65.0,
         "voucher_ratio": 35.0
       },
@@ -269,6 +269,11 @@
         }
       ],
       "phase": {
+        "正式期": {
+          "gmv": 240805,
+          "orders": 852,
+          "users": 730
+        },
         "蓄水期": {
           "gmv": 141124,
           "orders": 666,
@@ -278,11 +283,6 @@
           "gmv": 290385,
           "orders": 1305,
           "users": 1040
-        },
-        "正式期": {
-          "gmv": 240805,
-          "orders": 852,
-          "users": 730
         },
         "返场期": {
           "gmv": 247,
@@ -811,18 +811,18 @@
         "campaign": "26 年 618 大促（实时数据）",
         "campaign_key": "y2026_618",
         "date_range": "2026-05-13 → 2026-05-28",
-        "updated_at": "2026-05-28T10:24:43"
+        "updated_at": "2026-05-28T11:00:21"
       },
       "core": {
-        "total_gmv": 253663,
-        "total_orders": 1216,
-        "unique_users": 966,
-        "unique_orgs": 965,
-        "aov": 262.6,
-        "member_gmv": 166388,
-        "voucher_gmv": 87275,
-        "member_ratio": 65.6,
-        "voucher_ratio": 34.4
+        "total_gmv": 255346,
+        "total_orders": 1221,
+        "unique_users": 970,
+        "unique_orgs": 969,
+        "aov": 263.2,
+        "member_gmv": 166776,
+        "voucher_gmv": 88570,
+        "member_ratio": 65.3,
+        "voucher_ratio": 34.7
       },
       "daily": [
         {
@@ -909,36 +909,36 @@
         {
           "date": "2026-05-26",
           "phase": "正式期",
-          "gmv": 20229,
-          "orders": 103,
-          "users": 95,
-          "member_gmv": 13398,
+          "gmv": 20081,
+          "orders": 102,
+          "users": 94,
+          "member_gmv": 13250,
           "voucher_gmv": 6831
         },
         {
           "date": "2026-05-27",
           "phase": "正式期",
-          "gmv": 18868,
-          "orders": 92,
-          "users": 83,
-          "member_gmv": 7376,
+          "gmv": 18720,
+          "orders": 91,
+          "users": 82,
+          "member_gmv": 7228,
           "voucher_gmv": 11492
         },
         {
           "date": "2026-05-28",
           "phase": "正式期",
-          "gmv": 6762,
-          "orders": 39,
-          "users": 37,
-          "member_gmv": 2208,
-          "voucher_gmv": 4554
+          "gmv": 8741,
+          "orders": 46,
+          "users": 43,
+          "member_gmv": 2892,
+          "voucher_gmv": 5849
         }
       ],
       "phase": {
         "正式期": {
-          "gmv": 253663,
-          "orders": 1215,
-          "users": 965
+          "gmv": 255346,
+          "orders": 1220,
+          "users": 969
         },
         "预约期": {
           "gmv": 0,
@@ -1149,14 +1149,14 @@
       "member_rank": [
         {
           "name": "精修基础会员",
-          "gmv": 43844,
-          "orders": 113,
+          "gmv": 44232,
+          "orders": 114,
           "price": 388.0
         },
         {
           "name": "精修体验会员",
-          "gmv": 35668,
-          "orders": 242,
+          "gmv": 35816,
+          "orders": 243,
           "price": 148.0
         },
         {
@@ -1167,8 +1167,8 @@
         },
         {
           "name": "精修体验会员 iOS",
-          "gmv": 13912,
-          "orders": 94,
+          "gmv": 14060,
+          "orders": 95,
           "price": 148.0
         },
         {
@@ -1179,8 +1179,8 @@
         },
         {
           "name": "畅修体验会员",
-          "gmv": 9768,
-          "orders": 66,
+          "gmv": 9472,
+          "orders": 64,
           "price": 148.0
         },
         {
@@ -1199,14 +1199,14 @@
       "voucher_rank": [
         {
           "name": "AI畅修券1张",
-          "gmv": 32076,
-          "orders": 324,
+          "gmv": 32274,
+          "orders": 326,
           "price": 99.0
         },
         {
           "name": "AI畅修券1张 iOS",
-          "gmv": 19107,
-          "orders": 193,
+          "gmv": 19206,
+          "orders": 194,
           "price": 99.0
         },
         {
@@ -1223,8 +1223,8 @@
         },
         {
           "name": "AI畅修券10张 iOS",
-          "gmv": 4990,
-          "orders": 5,
+          "gmv": 5988,
+          "orders": 6,
           "price": 998.0
         },
         {
@@ -1243,18 +1243,18 @@
       "buy_type": [
         {
           "name": "复购-Upsell",
-          "gmv": 138635,
-          "orders": 374
+          "gmv": 139171,
+          "orders": 376
         },
         {
           "name": "复购-Downsell",
-          "gmv": 57463,
-          "orders": 387
+          "gmv": 57562,
+          "orders": 388
         },
         {
           "name": "复购-Equal sales",
-          "gmv": 38121,
-          "orders": 346
+          "gmv": 39169,
+          "orders": 348
         },
         {
           "name": "首次购买",
@@ -1270,15 +1270,15 @@
       "channel": [
         {
           "name": "官方",
-          "gmv": 168415,
-          "orders": 975,
-          "users": 764
+          "gmv": 170246,
+          "orders": 981,
+          "users": 768
         },
         {
           "name": "企业微信",
-          "gmv": 41664,
-          "orders": 108,
-          "users": 98
+          "gmv": 41516,
+          "orders": 107,
+          "users": 97
         },
         {
           "name": "banner",
@@ -1308,9 +1308,9 @@
       "sub_channel": [
         {
           "name": "芝士安卓端",
-          "gmv": 62407,
-          "orders": 414,
-          "users": 315
+          "gmv": 62605,
+          "orders": 416,
+          "users": 316
         },
         {
           "name": "芝士IOS端",
@@ -1320,15 +1320,15 @@
         },
         {
           "name": "芝士-社群套餐-江江",
-          "gmv": 30092,
-          "orders": 75,
-          "users": 67
+          "gmv": 29944,
+          "orders": 74,
+          "users": 66
         },
         {
           "name": "芝士官网",
-          "gmv": 26154,
-          "orders": 119,
-          "users": 105
+          "gmv": 26542,
+          "orders": 120,
+          "users": 106
         },
         {
           "name": "芝士双十一小程序",
@@ -1338,15 +1338,15 @@
         },
         {
           "name": "芝士｜端内弹窗",
-          "gmv": 18728,
-          "orders": 94,
-          "users": 94
+          "gmv": 18975,
+          "orders": 96,
+          "users": 95
         },
         {
           "name": "芝士｜软件icon",
-          "gmv": 11124,
-          "orders": 48,
-          "users": 45
+          "gmv": 12122,
+          "orders": 49,
+          "users": 46
         },
         {
           "name": "芝士-社群套餐-小希",
@@ -1394,7 +1394,7 @@
       "price_bucket": [
         {
           "range": "¥0-100",
-          "count": 522
+          "count": 525
         },
         {
           "range": "¥100-300",
@@ -1402,11 +1402,11 @@
         },
         {
           "range": "¥300-500",
-          "count": 201
+          "count": 202
         },
         {
           "range": "¥500-1000",
-          "count": 24
+          "count": 25
         },
         {
           "range": "¥1000-2000",
@@ -1420,15 +1420,15 @@
       "org_freq": [
         {
           "range": "仅1单",
-          "count": 783
+          "count": 786
         },
         {
           "range": "2单",
-          "count": 135
+          "count": 137
         },
         {
           "range": "3-5单",
-          "count": 46
+          "count": 45
         },
         {
           "range": "6-10单",
@@ -1441,19 +1441,19 @@
       ],
       "platform": {
         "ios": {
-          "gmv": 65329,
-          "ratio": 25.8
+          "gmv": 66574,
+          "ratio": 26.1
         },
         "android_web": {
-          "gmv": 188334,
-          "ratio": 74.2
+          "gmv": 188772,
+          "ratio": 73.9
         }
       },
       "events": {
         "event_total": 2000,
-        "event_date_range": "2026-05-13 → 2026-05-18",
+        "event_date_range": "2026-05-13 → 2026-05-15",
         "funnel": {
-          "exposure": 1003
+          "exposure": 324
         },
         "reserve_count": 0,
         "daily_reserve": [],
@@ -1462,11 +1462,7 @@
         "action_counts": [
           [
             "screen_view",
-            1374
-          ],
-          [
-            "module_view",
-            626
+            2000
           ]
         ],
         "screen_counts": [
@@ -1479,41 +1475,41 @@
         "channel_counts": [
           [
             "未知",
-            1213
+            1231
           ],
           [
             "1673",
-            275
+            227
           ],
           [
             "1669",
-            237
+            218
           ],
           [
             "1672",
-            128
-          ],
-          [
-            "1670",
-            91
+            166
           ],
           [
             "1671",
-            47
+            80
+          ],
+          [
+            "1670",
+            74
           ],
           [
             "1668",
-            9
+            4
           ]
         ],
         "user_type_counts": [
           [
-            "新用户",
-            1433
+            "老用户",
+            1421
           ],
           [
-            "老用户",
-            567
+            "新用户",
+            579
           ]
         ],
         "source_counts": [
@@ -1536,8 +1532,8 @@
         "unique_orgs": 275,
         "paid_users": 139,
         "paid_orgs": 139,
-        "return_visit_users": 41,
-        "return_visit_rate": 14.9,
+        "return_visit_users": 14,
+        "return_visit_rate": 5.1,
         "paid_rate": 50.4,
         "daily": [
           {
@@ -1641,10 +1637,6 @@
             "count": 7
           },
           {
-            "name": "大促活动｜畅修旗舰会员",
-            "count": 5
-          },
-          {
             "name": "大促活动｜AI畅修券1张",
             "count": 5
           },
@@ -1653,11 +1645,15 @@
             "count": 5
           },
           {
+            "name": "大促活动｜畅修旗舰会员",
+            "count": 5
+          },
+          {
             "name": "大促活动｜AI畅修券10张（非会员）",
             "count": 4
           },
           {
-            "name": "大促活动｜AI畅修券30张（会员）",
+            "name": "大促活动｜AI畅修券20张",
             "count": 4
           }
         ]
@@ -1758,7 +1754,7 @@
     "orders": {
       "card_id": 8539,
       "status": "completed",
-      "rows_returned": 4041,
+      "rows_returned": 4046,
       "source": "csv"
     },
     "events": {
