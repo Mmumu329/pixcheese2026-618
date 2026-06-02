@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-06-02T15:48:42",
+    "updated_at": "2026-06-02T15:58:49",
     "source": "Metabase collection 474",
     "default_dataset": "y2026_618"
   },
@@ -10,7 +10,7 @@
         "campaign": "25 年双 11 大促（真实数据，作为 618 同期基线）",
         "campaign_key": "y2025_d11",
         "date_range": "2025-10-17 → 2025-11-14",
-        "updated_at": "2026-06-02T15:48:42"
+        "updated_at": "2026-06-02T15:58:49"
       },
       "core": {
         "total_gmv": 672561,
@@ -19,7 +19,7 @@
         "unique_orgs": 2106,
         "aov": 319.7,
         "member_gmv": 437163,
-        "voucher_gmv": 235398,
+        "voucher_gmv": 235397,
         "member_ratio": 65.0,
         "voucher_ratio": 35.0
       },
@@ -269,6 +269,11 @@
         }
       ],
       "phase": {
+        "正式期": {
+          "gmv": 240805,
+          "orders": 852,
+          "users": 730
+        },
         "蓄水期": {
           "gmv": 141124,
           "orders": 666,
@@ -278,11 +283,6 @@
           "gmv": 290385,
           "orders": 1305,
           "users": 1040
-        },
-        "正式期": {
-          "gmv": 240805,
-          "orders": 852,
-          "users": 730
         },
         "返场期": {
           "gmv": 247,
@@ -811,7 +811,7 @@
         "campaign": "26 年 618 大促（实时数据）",
         "campaign_key": "y2026_618",
         "date_range": "2026-05-13 → 2026-06-02",
-        "updated_at": "2026-06-02T15:48:42"
+        "updated_at": "2026-06-02T15:58:49"
       },
       "core": {
         "total_gmv": 325418,
@@ -1509,7 +1509,7 @@
         "event_total": 2000,
         "event_date_range": "2026-05-13 → 2026-05-18",
         "funnel": {
-          "exposure": 887
+          "exposure": 104
         },
         "reserve_count": 0,
         "daily_reserve": [],
@@ -1518,11 +1518,7 @@
         "action_counts": [
           [
             "screen_view",
-            1453
-          ],
-          [
-            "module_view",
-            547
+            2000
           ]
         ],
         "screen_counts": [
@@ -1535,41 +1531,41 @@
         "channel_counts": [
           [
             "未知",
-            1231
+            1217
           ],
           [
             "1669",
-            250
+            217
           ],
           [
             "1673",
-            235
+            199
           ],
           [
             "1672",
-            148
-          ],
-          [
-            "1670",
-            68
+            171
           ],
           [
             "1671",
-            61
+            101
+          ],
+          [
+            "1670",
+            90
           ],
           [
             "1668",
-            7
+            5
           ]
         ],
         "user_type_counts": [
           [
-            "新用户",
-            1228
+            "老用户",
+            1870
           ],
           [
-            "老用户",
-            772
+            "新用户",
+            130
           ]
         ],
         "source_counts": [
@@ -1592,8 +1588,8 @@
         "unique_orgs": 275,
         "paid_users": 149,
         "paid_orgs": 149,
-        "return_visit_users": 37,
-        "return_visit_rate": 13.4,
+        "return_visit_users": 13,
+        "return_visit_rate": 4.7,
         "paid_rate": 54.0,
         "daily": [
           {
