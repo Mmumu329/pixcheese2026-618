@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-06-04T10:48:18",
+    "updated_at": "2026-06-04T10:58:24",
     "source": "Metabase collection 474",
     "default_dataset": "y2026_618"
   },
@@ -10,7 +10,7 @@
         "campaign": "25 年双 11 大促（真实数据，作为 618 同期基线）",
         "campaign_key": "y2025_d11",
         "date_range": "2025-10-17 → 2025-11-14",
-        "updated_at": "2026-06-04T10:48:18"
+        "updated_at": "2026-06-04T10:58:24"
       },
       "core": {
         "total_gmv": 672561,
@@ -274,15 +274,15 @@
           "orders": 852,
           "users": 730
         },
-        "蓄水期": {
-          "gmv": 141124,
-          "orders": 666,
-          "users": 557
-        },
         "预热期": {
           "gmv": 290385,
           "orders": 1305,
           "users": 1040
+        },
+        "蓄水期": {
+          "gmv": 141124,
+          "orders": 666,
+          "users": 557
         },
         "返场期": {
           "gmv": 247,
@@ -811,15 +811,15 @@
         "campaign": "26 年 618 大促（实时数据）",
         "campaign_key": "y2026_618",
         "date_range": "2026-05-13 → 2026-06-04",
-        "updated_at": "2026-06-04T10:48:18"
+        "updated_at": "2026-06-04T10:58:24"
       },
       "core": {
-        "total_gmv": 327378,
-        "total_orders": 1566,
+        "total_gmv": 327526,
+        "total_orders": 1567,
         "unique_users": 1203,
-        "unique_orgs": 1214,
-        "aov": 272.1,
-        "member_gmv": 216426,
+        "unique_orgs": 1215,
+        "aov": 272.3,
+        "member_gmv": 216574,
         "voucher_gmv": 110952,
         "member_ratio": 66.1,
         "voucher_ratio": 33.9
@@ -990,10 +990,10 @@
         {
           "date": "2026-06-04",
           "phase": "沉淀期",
-          "gmv": 924,
-          "orders": 3,
+          "gmv": 1072,
+          "orders": 4,
           "users": 1,
-          "member_gmv": 924,
+          "member_gmv": 1072,
           "voucher_gmv": 0
         }
       ],
@@ -1004,8 +1004,8 @@
           "users": 1187
         },
         "沉淀期": {
-          "gmv": 5479,
-          "orders": 26,
+          "gmv": 5627,
+          "orders": 27,
           "users": 16
         },
         "预约期": {
@@ -1223,8 +1223,8 @@
         },
         {
           "name": "精修体验会员",
-          "gmv": 45288,
-          "orders": 307,
+          "gmv": 45436,
+          "orders": 308,
           "price": 148.0
         },
         {
@@ -1316,8 +1316,8 @@
         },
         {
           "name": "复购-Downsell",
-          "gmv": 77727,
-          "orders": 511
+          "gmv": 77875,
+          "orders": 512
         },
         {
           "name": "复购-Equal sales",
@@ -1338,8 +1338,8 @@
       "channel": [
         {
           "name": "官方",
-          "gmv": 211460,
-          "orders": 1242,
+          "gmv": 211608,
+          "orders": 1243,
           "users": 934
         },
         {
@@ -1448,8 +1448,8 @@
         },
         {
           "name": "后台添加",
-          "gmv": 2884,
-          "orders": 13,
+          "gmv": 3032,
+          "orders": 14,
           "users": 1
         },
         {
@@ -1472,7 +1472,7 @@
         },
         {
           "range": "¥100-300",
-          "count": 573
+          "count": 574
         },
         {
           "range": "¥300-500",
@@ -1494,7 +1494,7 @@
       "org_freq": [
         {
           "range": "仅1单",
-          "count": 986
+          "count": 987
         },
         {
           "range": "2单",
@@ -1519,15 +1519,15 @@
           "ratio": 24.9
         },
         "android_web": {
-          "gmv": 245821,
+          "gmv": 245969,
           "ratio": 75.1
         }
       },
       "events": {
         "event_total": 2000,
-        "event_date_range": "2026-05-13 → 2026-05-18",
+        "event_date_range": "2026-05-13 → 2026-06-01",
         "funnel": {
-          "exposure": 324
+          "exposure": 301
         },
         "reserve_count": 0,
         "daily_reserve": [],
@@ -1536,54 +1536,62 @@
         "action_counts": [
           [
             "screen_view",
-            2000
+            1913
+          ],
+          [
+            "module_view",
+            87
           ]
         ],
         "screen_counts": [
           [
             "home_page",
-            2000
+            1887
+          ],
+          [
+            "open_screen",
+            113
           ]
         ],
         "element_counts": [],
         "channel_counts": [
           [
             "未知",
-            1238
-          ],
-          [
-            "1669",
-            213
+            1192
           ],
           [
             "1673",
-            206
+            215
           ],
           [
             "1672",
-            172
+            201
+          ],
+          [
+            "1669",
+            200
           ],
           [
             "1670",
-            81
+            95
           ],
           [
             "1671",
-            78
+            86
           ],
           [
             "1668",
-            12
+            11
           ]
         ],
         "user_type_counts": [
           [
             "老用户",
-            1526
+            1622
           ],
           [
             "新用户",
-            474
+            378
           ]
         ],
         "source_counts": [
@@ -1711,6 +1719,10 @@
             "count": 7
           },
           {
+            "name": "大促活动｜畅修旗舰会员",
+            "count": 5
+          },
+          {
             "name": "大促活动｜AI畅修券10张",
             "count": 5
           },
@@ -1719,15 +1731,11 @@
             "count": 5
           },
           {
-            "name": "大促活动｜畅修旗舰会员",
-            "count": 5
-          },
-          {
-            "name": "大促活动｜AI畅修券10张（非会员）",
+            "name": "大促活动｜AI畅修券20张",
             "count": 4
           },
           {
-            "name": "大促活动｜AI畅修券20张",
+            "name": "大促活动｜AI畅修券10张（非会员）",
             "count": 4
           }
         ]
@@ -1836,7 +1844,7 @@
     "orders": {
       "card_id": 8539,
       "status": "completed",
-      "rows_returned": 4391,
+      "rows_returned": 4392,
       "source": "csv"
     },
     "events": {
