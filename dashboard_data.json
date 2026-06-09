@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-06-10T05:36:58",
+    "updated_at": "2026-06-10T05:47:05",
     "source": "Metabase collection 474",
     "default_dataset": "y2026_618"
   },
@@ -10,7 +10,7 @@
         "campaign": "25 年双 11 大促（真实数据，作为 618 同期基线）",
         "campaign_key": "y2025_d11",
         "date_range": "2025-10-17 → 2025-11-14",
-        "updated_at": "2026-06-10T05:36:58"
+        "updated_at": "2026-06-10T05:47:05"
       },
       "core": {
         "total_gmv": 672561,
@@ -269,15 +269,15 @@
         }
       ],
       "phase": {
-        "预热期": {
-          "gmv": 290385,
-          "orders": 1305,
-          "users": 1040
-        },
         "蓄水期": {
           "gmv": 141124,
           "orders": 666,
           "users": 557
+        },
+        "预热期": {
+          "gmv": 290385,
+          "orders": 1305,
+          "users": 1040
         },
         "正式期": {
           "gmv": 240805,
@@ -811,7 +811,7 @@
         "campaign": "26 年 618 大促（实时数据）",
         "campaign_key": "y2026_618",
         "date_range": "2026-05-13 → 2026-06-09",
-        "updated_at": "2026-06-10T05:36:58"
+        "updated_at": "2026-06-10T05:47:05"
       },
       "core": {
         "total_gmv": 333378,
@@ -1039,15 +1039,15 @@
           "orders": 1539,
           "users": 1187
         },
-        "预约期": {
-          "gmv": 0,
-          "orders": 1,
-          "users": 1
-        },
         "沉淀期": {
           "gmv": 11479,
           "orders": 46,
           "users": 28
+        },
+        "预约期": {
+          "gmv": 0,
+          "orders": 1,
+          "users": 1
         }
       },
       "phase_ranges": [
@@ -1561,9 +1561,9 @@
       },
       "events": {
         "event_total": 2000,
-        "event_date_range": "2026-05-13 → 2026-05-16",
+        "event_date_range": "2026-05-13 → 2026-05-24",
         "funnel": {
-          "exposure": 864
+          "exposure": 1304
         },
         "reserve_count": 0,
         "daily_reserve": [],
@@ -1571,12 +1571,8 @@
         "new_user_gift": 0,
         "action_counts": [
           [
-            "screen_view",
-            1438
-          ],
-          [
             "module_view",
-            562
+            2000
           ]
         ],
         "screen_counts": [
@@ -1589,41 +1585,41 @@
         "channel_counts": [
           [
             "未知",
-            1206
+            1251
           ],
           [
             "1673",
-            294
-          ],
-          [
-            "1669",
-            226
+            191
           ],
           [
             "1672",
-            160
+            165
           ],
           [
-            "1671",
-            58
+            "1669",
+            162
           ],
           [
             "1670",
-            52
+            101
+          ],
+          [
+            "1671",
+            90
           ],
           [
             "1668",
-            4
+            40
           ]
         ],
         "user_type_counts": [
           [
             "新用户",
-            1400
+            1650
           ],
           [
             "老用户",
-            600
+            350
           ]
         ],
         "source_counts": [
@@ -1646,8 +1642,8 @@
         "unique_orgs": 275,
         "paid_users": 150,
         "paid_orgs": 150,
-        "return_visit_users": 31,
-        "return_visit_rate": 11.2,
+        "return_visit_users": 30,
+        "return_visit_rate": 10.9,
         "paid_rate": 54.3,
         "daily": [
           {
@@ -1755,19 +1751,19 @@
             "count": 5
           },
           {
-            "name": "大促活动｜AI畅修券1张",
-            "count": 5
-          },
-          {
             "name": "大促活动｜AI畅修券10张",
             "count": 5
           },
           {
-            "name": "大促活动｜AI畅修券10张（非会员）",
-            "count": 4
+            "name": "大促活动｜AI畅修券1张",
+            "count": 5
           },
           {
             "name": "大促活动｜AI畅修券20张",
+            "count": 4
+          },
+          {
+            "name": "大促活动｜AI畅修券30张（会员）",
             "count": 4
           }
         ]
