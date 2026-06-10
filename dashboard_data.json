@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-06-10T19:25:13",
+    "updated_at": "2026-06-10T19:35:21",
     "source": "Metabase collection 474",
     "default_dataset": "y2026_618"
   },
@@ -10,7 +10,7 @@
         "campaign": "25 年双 11 大促（真实数据，作为 618 同期基线）",
         "campaign_key": "y2025_d11",
         "date_range": "2025-10-17 → 2025-11-14",
-        "updated_at": "2026-06-10T19:25:13"
+        "updated_at": "2026-06-10T19:35:21"
       },
       "core": {
         "total_gmv": 672561,
@@ -19,7 +19,7 @@
         "unique_orgs": 2106,
         "aov": 319.7,
         "member_gmv": 437163,
-        "voucher_gmv": 235397,
+        "voucher_gmv": 235398,
         "member_ratio": 65.0,
         "voucher_ratio": 35.0
       },
@@ -269,11 +269,6 @@
         }
       ],
       "phase": {
-        "蓄水期": {
-          "gmv": 141124,
-          "orders": 666,
-          "users": 557
-        },
         "预热期": {
           "gmv": 290385,
           "orders": 1305,
@@ -283,6 +278,11 @@
           "gmv": 240805,
           "orders": 852,
           "users": 730
+        },
+        "蓄水期": {
+          "gmv": 141124,
+          "orders": 666,
+          "users": 557
         },
         "返场期": {
           "gmv": 247,
@@ -593,18 +593,18 @@
       "buy_type": [
         {
           "name": "复购-Upsell",
-          "gmv": 342368,
+          "gmv": 342416,
           "orders": 861
         },
         {
           "name": "首次购买",
-          "gmv": 132002,
-          "orders": 629
+          "gmv": 131854,
+          "orders": 628
         },
         {
           "name": "复购-Downsell",
-          "gmv": 126653,
-          "orders": 766
+          "gmv": 126752,
+          "orders": 767
         },
         {
           "name": "复购-Equal sales",
@@ -811,7 +811,7 @@
         "campaign": "26 年 618 大促（实时数据）",
         "campaign_key": "y2026_618",
         "date_range": "2026-05-13 → 2026-06-10",
-        "updated_at": "2026-06-10T19:25:13"
+        "updated_at": "2026-06-10T19:35:21"
       },
       "core": {
         "total_gmv": 333526,
@@ -1570,9 +1570,9 @@
       },
       "events": {
         "event_total": 2000,
-        "event_date_range": "2026-05-13 → 2026-05-19",
+        "event_date_range": "2026-05-13 → 2026-05-17",
         "funnel": {
-          "exposure": 291
+          "exposure": 577
         },
         "reserve_count": 0,
         "daily_reserve": [],
@@ -1581,7 +1581,11 @@
         "action_counts": [
           [
             "screen_view",
-            2000
+            1685
+          ],
+          [
+            "module_view",
+            315
           ]
         ],
         "screen_counts": [
@@ -1594,41 +1598,41 @@
         "channel_counts": [
           [
             "未知",
-            1210
-          ],
-          [
-            "1669",
-            225
+            1219
           ],
           [
             "1673",
-            216
+            225
+          ],
+          [
+            "1669",
+            207
           ],
           [
             "1672",
-            169
-          ],
-          [
-            "1671",
-            89
+            166
           ],
           [
             "1670",
-            71
+            88
+          ],
+          [
+            "1671",
+            88
           ],
           [
             "1668",
-            20
+            7
           ]
         ],
         "user_type_counts": [
           [
             "老用户",
-            1667
+            1155
           ],
           [
             "新用户",
-            333
+            845
           ]
         ],
         "source_counts": [
@@ -1651,8 +1655,8 @@
         "unique_orgs": 275,
         "paid_users": 150,
         "paid_orgs": 150,
-        "return_visit_users": 16,
-        "return_visit_rate": 5.8,
+        "return_visit_users": 18,
+        "return_visit_rate": 6.5,
         "paid_rate": 54.3,
         "daily": [
           {
@@ -1772,7 +1776,7 @@
             "count": 4
           },
           {
-            "name": "大促活动｜AI畅修券30张（会员）",
+            "name": "大促活动｜AI畅修券20张",
             "count": 4
           }
         ]
