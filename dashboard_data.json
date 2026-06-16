@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-06-16T08:34:15",
+    "updated_at": "2026-06-16T08:44:40",
     "source": "Metabase collection 474",
     "default_dataset": "y2026_618"
   },
@@ -10,7 +10,7 @@
         "campaign": "25 年双 11 大促（真实数据，作为 618 同期基线）",
         "campaign_key": "y2025_d11",
         "date_range": "2025-10-17 → 2025-11-14",
-        "updated_at": "2026-06-16T08:34:15"
+        "updated_at": "2026-06-16T08:44:40"
       },
       "core": {
         "total_gmv": 672561,
@@ -269,15 +269,15 @@
         }
       ],
       "phase": {
-        "蓄水期": {
-          "gmv": 141124,
-          "orders": 666,
-          "users": 557
-        },
         "正式期": {
           "gmv": 240805,
           "orders": 852,
           "users": 730
+        },
+        "蓄水期": {
+          "gmv": 141124,
+          "orders": 666,
+          "users": 557
         },
         "预热期": {
           "gmv": 290385,
@@ -811,7 +811,7 @@
         "campaign": "26 年 618 大促（实时数据）",
         "campaign_key": "y2026_618",
         "date_range": "2026-05-13 → 2026-06-16",
-        "updated_at": "2026-06-16T08:34:15"
+        "updated_at": "2026-06-16T08:44:40"
       },
       "core": {
         "total_gmv": 338752,
@@ -1107,13 +1107,13 @@
           "orders": 69,
           "users": 49
         },
-        "返场期": {
-          "gmv": 388,
+        "预约期": {
+          "gmv": 0,
           "orders": 1,
           "users": 1
         },
-        "预约期": {
-          "gmv": 0,
+        "返场期": {
+          "gmv": 388,
           "orders": 1,
           "users": 1
         }
@@ -1629,9 +1629,9 @@
       },
       "events": {
         "event_total": 2000,
-        "event_date_range": "2026-05-13 → 2026-05-14",
+        "event_date_range": "2026-05-13 → 2026-06-01",
         "funnel": {
-          "exposure": 641
+          "exposure": 798
         },
         "reserve_count": 0,
         "daily_reserve": [],
@@ -1645,49 +1645,53 @@
         ],
         "screen_counts": [
           [
+            "open_screen",
+            1379
+          ],
+          [
             "home_page",
-            2000
+            621
           ]
         ],
         "element_counts": [],
         "channel_counts": [
           [
             "未知",
-            1214
-          ],
-          [
-            "1673",
-            305
+            1303
           ],
           [
             "1669",
-            202
+            178
+          ],
+          [
+            "1673",
+            157
           ],
           [
             "1672",
-            160
+            137
           ],
           [
             "1670",
-            63
-          ],
-          [
-            "1671",
-            51
+            90
           ],
           [
             "1668",
-            5
+            74
+          ],
+          [
+            "1671",
+            61
           ]
         ],
         "user_type_counts": [
           [
-            "新用户",
-            1287
+            "老用户",
+            1015
           ],
           [
-            "老用户",
-            713
+            "新用户",
+            985
           ]
         ],
         "source_counts": [
@@ -1710,8 +1714,8 @@
         "unique_orgs": 275,
         "paid_users": 150,
         "paid_orgs": 150,
-        "return_visit_users": 30,
-        "return_visit_rate": 10.9,
+        "return_visit_users": 38,
+        "return_visit_rate": 13.8,
         "paid_rate": 54.3,
         "daily": [
           {
@@ -1815,7 +1819,7 @@
             "count": 7
           },
           {
-            "name": "大促活动｜畅修旗舰会员",
+            "name": "大促活动｜AI畅修券10张",
             "count": 5
           },
           {
@@ -1823,15 +1827,15 @@
             "count": 5
           },
           {
-            "name": "大促活动｜AI畅修券10张",
+            "name": "大促活动｜畅修旗舰会员",
             "count": 5
           },
           {
-            "name": "大促活动｜AI畅修券20张",
+            "name": "大促活动｜AI畅修券30张（会员）",
             "count": 4
           },
           {
-            "name": "大促活动｜AI畅修券10张（非会员）",
+            "name": "大促活动｜AI畅修券20张",
             "count": 4
           }
         ]
