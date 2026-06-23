@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-06-24T07:02:36",
+    "updated_at": "2026-06-24T07:12:42",
     "source": "Metabase collection 474",
     "default_dataset": "y2026_618"
   },
@@ -10,7 +10,7 @@
         "campaign": "25 年双 11 大促（真实数据，作为 618 同期基线）",
         "campaign_key": "y2025_d11",
         "date_range": "2025-10-17 → 2025-11-14",
-        "updated_at": "2026-06-24T07:02:36"
+        "updated_at": "2026-06-24T07:12:42"
       },
       "core": {
         "total_gmv": 672561,
@@ -19,7 +19,7 @@
         "unique_orgs": 2106,
         "aov": 319.7,
         "member_gmv": 437163,
-        "voucher_gmv": 235397,
+        "voucher_gmv": 235398,
         "member_ratio": 65.0,
         "voucher_ratio": 35.0
       },
@@ -269,6 +269,11 @@
         }
       ],
       "phase": {
+        "正式期": {
+          "gmv": 240805,
+          "orders": 852,
+          "users": 730
+        },
         "预热期": {
           "gmv": 290385,
           "orders": 1305,
@@ -278,11 +283,6 @@
           "gmv": 141124,
           "orders": 666,
           "users": 557
-        },
-        "正式期": {
-          "gmv": 240805,
-          "orders": 852,
-          "users": 730
         },
         "返场期": {
           "gmv": 247,
@@ -811,7 +811,7 @@
         "campaign": "26 年 618 大促（实时数据）",
         "campaign_key": "y2026_618",
         "date_range": "2026-05-13 → 2026-06-21",
-        "updated_at": "2026-06-24T07:02:36"
+        "updated_at": "2026-06-24T07:12:42"
       },
       "core": {
         "total_gmv": 534819,
@@ -1129,15 +1129,15 @@
           "orders": 1539,
           "users": 1187
         },
-        "返场期": {
-          "gmv": 196455,
-          "orders": 655,
-          "users": 558
-        },
         "沉淀期": {
           "gmv": 16465,
           "orders": 69,
           "users": 49
+        },
+        "返场期": {
+          "gmv": 196455,
+          "orders": 655,
+          "users": 558
         },
         "预约期": {
           "gmv": 0,
@@ -1662,9 +1662,9 @@
       },
       "events": {
         "event_total": 2000,
-        "event_date_range": "2026-05-13 → 2026-05-14",
+        "event_date_range": "2026-05-13 → 2026-05-20",
         "funnel": {
-          "exposure": 564
+          "exposure": 304
         },
         "reserve_count": 0,
         "daily_reserve": [],
@@ -1686,41 +1686,41 @@
         "channel_counts": [
           [
             "未知",
-            1243
+            1210
           ],
           [
             "1673",
-            247
+            213
           ],
           [
             "1669",
-            193
+            199
           ],
           [
             "1672",
-            163
-          ],
-          [
-            "1670",
-            84
+            176
           ],
           [
             "1671",
-            66
+            105
+          ],
+          [
+            "1670",
+            88
           ],
           [
             "1668",
-            4
+            9
           ]
         ],
         "user_type_counts": [
           [
-            "新用户",
-            1017
+            "老用户",
+            1483
           ],
           [
-            "老用户",
-            983
+            "新用户",
+            517
           ]
         ],
         "source_counts": [
@@ -1743,8 +1743,8 @@
         "unique_orgs": 275,
         "paid_users": 164,
         "paid_orgs": 164,
-        "return_visit_users": 28,
-        "return_visit_rate": 10.1,
+        "return_visit_users": 20,
+        "return_visit_rate": 7.2,
         "paid_rate": 59.4,
         "daily": [
           {
