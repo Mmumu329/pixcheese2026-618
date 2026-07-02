@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-07-02T15:42:19",
+    "updated_at": "2026-07-02T15:52:25",
     "source": "Metabase collection 474",
     "default_dataset": "y2026_618"
   },
@@ -10,7 +10,7 @@
         "campaign": "25 年双 11 大促（真实数据，作为 618 同期基线）",
         "campaign_key": "y2025_d11",
         "date_range": "2025-10-17 → 2025-11-14",
-        "updated_at": "2026-07-02T15:42:19"
+        "updated_at": "2026-07-02T15:52:25"
       },
       "core": {
         "total_gmv": 672561,
@@ -269,11 +269,6 @@
         }
       ],
       "phase": {
-        "蓄水期": {
-          "gmv": 141124,
-          "orders": 666,
-          "users": 557
-        },
         "预热期": {
           "gmv": 290385,
           "orders": 1305,
@@ -283,6 +278,11 @@
           "gmv": 240805,
           "orders": 852,
           "users": 730
+        },
+        "蓄水期": {
+          "gmv": 141124,
+          "orders": 666,
+          "users": 557
         },
         "返场期": {
           "gmv": 247,
@@ -811,7 +811,7 @@
         "campaign": "26 年 618 大促（实时数据）",
         "campaign_key": "y2026_618",
         "date_range": "2026-05-13 → 2026-06-21",
-        "updated_at": "2026-07-02T15:42:19"
+        "updated_at": "2026-07-02T15:52:25"
       },
       "core": {
         "total_gmv": 534525,
@@ -1129,15 +1129,15 @@
           "orders": 1539,
           "users": 1187
         },
-        "返场期": {
-          "gmv": 196161,
-          "orders": 655,
-          "users": 558
-        },
         "沉淀期": {
           "gmv": 16465,
           "orders": 69,
           "users": 49
+        },
+        "返场期": {
+          "gmv": 196161,
+          "orders": 655,
+          "users": 558
         },
         "预约期": {
           "gmv": 0,
@@ -1662,9 +1662,9 @@
       },
       "events": {
         "event_total": 2000,
-        "event_date_range": "2026-05-13 → 2026-06-04",
+        "event_date_range": "2026-05-13 → 2026-05-19",
         "funnel": {
-          "exposure": 986
+          "exposure": 809
         },
         "reserve_count": 0,
         "daily_reserve": [],
@@ -1678,53 +1678,49 @@
         ],
         "screen_counts": [
           [
-            "open_screen",
-            1455
-          ],
-          [
             "home_page",
-            545
+            2000
           ]
         ],
         "element_counts": [],
         "channel_counts": [
           [
             "未知",
-            1238
+            1182
           ],
           [
             "1673",
-            209
+            282
           ],
           [
             "1669",
-            174
+            267
           ],
           [
             "1672",
-            119
-          ],
-          [
-            "1671",
-            111
-          ],
-          [
-            "1668",
-            75
+            137
           ],
           [
             "1670",
-            74
+            64
+          ],
+          [
+            "1671",
+            55
+          ],
+          [
+            "1668",
+            13
           ]
         ],
         "user_type_counts": [
           [
             "新用户",
-            1090
+            1334
           ],
           [
             "老用户",
-            910
+            666
           ]
         ],
         "source_counts": [
@@ -1747,8 +1743,8 @@
         "unique_orgs": 275,
         "paid_users": 164,
         "paid_orgs": 164,
-        "return_visit_users": 42,
-        "return_visit_rate": 15.2,
+        "return_visit_users": 43,
+        "return_visit_rate": 15.6,
         "paid_rate": 59.4,
         "daily": [
           {
@@ -1852,7 +1848,7 @@
             "count": 7
           },
           {
-            "name": "大促活动｜AI畅修券1张",
+            "name": "大促活动｜AI畅修券10张",
             "count": 5
           },
           {
@@ -1860,11 +1856,11 @@
             "count": 5
           },
           {
-            "name": "大促活动｜AI畅修券10张",
+            "name": "大促活动｜AI畅修券1张",
             "count": 5
           },
           {
-            "name": "大促活动｜AI畅修券20张",
+            "name": "大促活动｜AI畅修券30张（会员）",
             "count": 4
           },
           {
