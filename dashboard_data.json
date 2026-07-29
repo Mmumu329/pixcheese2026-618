@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-07-29T08:33:54",
+    "updated_at": "2026-07-29T08:44:09",
     "source": "Metabase collection 474",
     "default_dataset": "y2026_618"
   },
@@ -10,7 +10,7 @@
         "campaign": "25 年双 11 大促（真实数据，作为 618 同期基线）",
         "campaign_key": "y2025_d11",
         "date_range": "2025-10-17 → 2025-11-14",
-        "updated_at": "2026-07-29T08:33:54"
+        "updated_at": "2026-07-29T08:44:09"
       },
       "core": {
         "total_gmv": 672173,
@@ -269,20 +269,20 @@
         }
       ],
       "phase": {
-        "预热期": {
-          "gmv": 289997,
-          "orders": 1304,
-          "users": 1039
+        "蓄水期": {
+          "gmv": 141124,
+          "orders": 666,
+          "users": 557
         },
         "正式期": {
           "gmv": 240805,
           "orders": 852,
           "users": 730
         },
-        "蓄水期": {
-          "gmv": 141124,
-          "orders": 666,
-          "users": 557
+        "预热期": {
+          "gmv": 289997,
+          "orders": 1304,
+          "users": 1039
         },
         "返场期": {
           "gmv": 247,
@@ -811,7 +811,7 @@
         "campaign": "26 年 618 大促（实时数据）",
         "campaign_key": "y2026_618",
         "date_range": "2026-05-13 → 2026-06-21",
-        "updated_at": "2026-07-29T08:33:54"
+        "updated_at": "2026-07-29T08:44:09"
       },
       "core": {
         "total_gmv": 533838,
@@ -1134,15 +1134,15 @@
           "orders": 653,
           "users": 558
         },
-        "预约期": {
-          "gmv": 0,
-          "orders": 1,
-          "users": 1
-        },
         "沉淀期": {
           "gmv": 16465,
           "orders": 69,
           "users": 49
+        },
+        "预约期": {
+          "gmv": 0,
+          "orders": 1,
+          "users": 1
         }
       },
       "phase_ranges": [
@@ -1662,9 +1662,9 @@
       },
       "events": {
         "event_total": 2000,
-        "event_date_range": "2026-05-13 → 2026-05-14",
+        "event_date_range": "2026-05-13 → 2026-06-03",
         "funnel": {
-          "exposure": 566
+          "exposure": 517
         },
         "reserve_count": 0,
         "daily_reserve": [],
@@ -1679,48 +1679,52 @@
         "screen_counts": [
           [
             "home_page",
-            2000
+            1573
+          ],
+          [
+            "open_screen",
+            427
           ]
         ],
         "element_counts": [],
         "channel_counts": [
           [
             "未知",
-            1209
-          ],
-          [
-            "1673",
-            295
+            1189
           ],
           [
             "1669",
-            238
+            240
+          ],
+          [
+            "1673",
+            212
           ],
           [
             "1672",
-            141
+            175
           ],
           [
             "1671",
-            62
+            92
           ],
           [
             "1670",
-            49
+            68
           ],
           [
             "1668",
-            6
+            24
           ]
         ],
         "user_type_counts": [
           [
-            "新用户",
-            1180
+            "老用户",
+            1436
           ],
           [
-            "老用户",
-            820
+            "新用户",
+            564
           ]
         ],
         "source_counts": [
@@ -1743,8 +1747,8 @@
         "unique_orgs": 275,
         "paid_users": 164,
         "paid_orgs": 164,
-        "return_visit_users": 31,
-        "return_visit_rate": 11.2,
+        "return_visit_users": 22,
+        "return_visit_rate": 8.0,
         "paid_rate": 59.4,
         "daily": [
           {
