@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-08-26T22:51:54",
+    "updated_at": "2026-08-26T23:02:06",
     "source": "Metabase collection 474",
     "default_dataset": "y2026_618"
   },
@@ -10,7 +10,7 @@
         "campaign": "25 年双 11 大促（真实数据，作为 618 同期基线）",
         "campaign_key": "y2025_d11",
         "date_range": "2025-10-17 → 2025-11-14",
-        "updated_at": "2026-08-26T22:51:54"
+        "updated_at": "2026-08-26T23:02:05"
       },
       "core": {
         "total_gmv": 672173,
@@ -811,7 +811,7 @@
         "campaign": "26 年 618 大促（实时数据）",
         "campaign_key": "y2026_618",
         "date_range": "2026-05-13 → 2026-06-21",
-        "updated_at": "2026-08-26T22:51:54"
+        "updated_at": "2026-08-26T23:02:05"
       },
       "core": {
         "total_gmv": 533690,
@@ -1124,11 +1124,6 @@
         }
       ],
       "phase": {
-        "沉淀期": {
-          "gmv": 16465,
-          "orders": 69,
-          "users": 49
-        },
         "正式期": {
           "gmv": 321899,
           "orders": 1539,
@@ -1138,6 +1133,11 @@
           "gmv": 195326,
           "orders": 652,
           "users": 557
+        },
+        "沉淀期": {
+          "gmv": 16465,
+          "orders": 69,
+          "users": 49
         },
         "预约期": {
           "gmv": 0,
@@ -1662,9 +1662,9 @@
       },
       "events": {
         "event_total": 2000,
-        "event_date_range": "2026-05-13 → 2026-06-04",
+        "event_date_range": "2026-05-13 → 2026-05-14",
         "funnel": {
-          "exposure": 595
+          "exposure": 623
         },
         "reserve_count": 0,
         "daily_reserve": [],
@@ -1679,52 +1679,48 @@
         "screen_counts": [
           [
             "home_page",
-            1211
-          ],
-          [
-            "open_screen",
-            789
+            2000
           ]
         ],
         "element_counts": [],
         "channel_counts": [
           [
             "未知",
-            1260
-          ],
-          [
-            "1669",
-            197
+            1197
           ],
           [
             "1673",
-            168
+            306
+          ],
+          [
+            "1669",
+            221
           ],
           [
             "1672",
-            150
+            158
           ],
           [
             "1670",
-            88
+            62
           ],
           [
             "1671",
-            87
+            53
           ],
           [
             "1668",
-            50
+            3
           ]
         ],
         "user_type_counts": [
           [
-            "老用户",
-            1272
+            "新用户",
+            1248
           ],
           [
-            "新用户",
-            728
+            "老用户",
+            752
           ]
         ],
         "source_counts": [
@@ -1747,8 +1743,8 @@
         "unique_orgs": 275,
         "paid_users": 164,
         "paid_orgs": 164,
-        "return_visit_users": 32,
-        "return_visit_rate": 11.6,
+        "return_visit_users": 36,
+        "return_visit_rate": 13.0,
         "paid_rate": 59.4,
         "daily": [
           {
@@ -1868,7 +1864,7 @@
             "count": 4
           },
           {
-            "name": "大促活动｜AI畅修券20张",
+            "name": "大促活动｜AI畅修券30张（会员）",
             "count": 4
           }
         ]
