@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-09-02T13:29:51",
+    "updated_at": "2026-09-02T13:40:01",
     "source": "Metabase collection 474",
     "default_dataset": "y2026_618"
   },
@@ -10,7 +10,7 @@
         "campaign": "25 年双 11 大促（真实数据，作为 618 同期基线）",
         "campaign_key": "y2025_d11",
         "date_range": "2025-10-17 → 2025-11-14",
-        "updated_at": "2026-09-02T13:29:51"
+        "updated_at": "2026-09-02T13:40:01"
       },
       "core": {
         "total_gmv": 672173,
@@ -19,7 +19,7 @@
         "unique_orgs": 2105,
         "aov": 319.6,
         "member_gmv": 436775,
-        "voucher_gmv": 235398,
+        "voucher_gmv": 235397,
         "member_ratio": 65.0,
         "voucher_ratio": 35.0
       },
@@ -269,15 +269,15 @@
         }
       ],
       "phase": {
-        "预热期": {
-          "gmv": 289997,
-          "orders": 1304,
-          "users": 1039
-        },
         "正式期": {
           "gmv": 240805,
           "orders": 852,
           "users": 730
+        },
+        "预热期": {
+          "gmv": 289997,
+          "orders": 1304,
+          "users": 1039
         },
         "蓄水期": {
           "gmv": 141124,
@@ -811,7 +811,7 @@
         "campaign": "26 年 618 大促（实时数据）",
         "campaign_key": "y2026_618",
         "date_range": "2026-05-13 → 2026-06-21",
-        "updated_at": "2026-09-02T13:29:51"
+        "updated_at": "2026-09-02T13:40:01"
       },
       "core": {
         "total_gmv": 533690,
@@ -1662,10 +1662,9 @@
       },
       "events": {
         "event_total": 2000,
-        "event_date_range": "2026-05-13 → 2026-06-03",
+        "event_date_range": "2026-05-13 → 2026-05-16",
         "funnel": {
-          "exposure": 347,
-          "click": 117
+          "exposure": 403
         },
         "reserve_count": 0,
         "daily_reserve": [],
@@ -1674,57 +1673,40 @@
         "action_counts": [
           [
             "screen_view",
-            1672
-          ],
-          [
-            "element_click",
-            328
+            2000
           ]
         ],
         "screen_counts": [
           [
             "home_page",
-            1672
-          ],
-          [
-            "未知",
-            328
+            2000
           ]
         ],
-        "element_counts": [
-          [
-            "top_banner_click",
-            328
-          ]
-        ],
+        "element_counts": [],
         "channel_counts": [
           [
             "未知",
-            1371
+            1197
           ],
           [
             "1673",
-            197
-          ],
-          [
-            "1669",
-            159
+            237
           ],
           [
             "1672",
-            145
+            203
+          ],
+          [
+            "1669",
+            196
           ],
           [
             "1671",
-            64
+            90
           ],
           [
             "1670",
-            57
-          ],
-          [
-            "社群-江江",
-            4
+            74
           ],
           [
             "1668",
@@ -1734,21 +1716,17 @@
         "user_type_counts": [
           [
             "老用户",
-            1233
+            1332
           ],
           [
             "新用户",
-            767
+            668
           ]
         ],
         "source_counts": [
           [
             "app",
-            1672
-          ],
-          [
-            "web",
-            328
+            2000
           ]
         ],
         "quality": {
@@ -1765,8 +1743,8 @@
         "unique_orgs": 275,
         "paid_users": 164,
         "paid_orgs": 164,
-        "return_visit_users": 26,
-        "return_visit_rate": 9.4,
+        "return_visit_users": 17,
+        "return_visit_rate": 6.2,
         "paid_rate": 59.4,
         "daily": [
           {
@@ -1882,11 +1860,11 @@
             "count": 5
           },
           {
-            "name": "大促活动｜AI畅修券10张（非会员）",
+            "name": "大促活动｜AI畅修券20张",
             "count": 4
           },
           {
-            "name": "大促活动｜AI畅修券30张（会员）",
+            "name": "大促活动｜AI畅修券10张（非会员）",
             "count": 4
           }
         ]
