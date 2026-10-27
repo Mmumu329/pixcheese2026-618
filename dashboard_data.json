@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-10-27T11:32:16",
+    "updated_at": "2026-10-27T11:44:41",
     "source": "Metabase collection 474",
     "default_dataset": "y2026_618"
   },
@@ -10,7 +10,7 @@
         "campaign": "25 年双 11 大促（真实数据，作为 618 同期基线）",
         "campaign_key": "y2025_d11",
         "date_range": "2025-10-17 → 2025-12-19",
-        "updated_at": "2026-10-27T11:32:16"
+        "updated_at": "2026-10-27T11:44:41"
       },
       "core": {
         "total_gmv": 779143,
@@ -19,7 +19,7 @@
         "unique_orgs": 2207,
         "aov": 353.4,
         "member_gmv": 449975,
-        "voucher_gmv": 329168,
+        "voucher_gmv": 329167,
         "member_ratio": 57.8,
         "voucher_ratio": 42.2
       },
@@ -341,20 +341,20 @@
         }
       ],
       "phase": {
-        "蓄水期": {
-          "gmv": 161148,
-          "orders": 701,
-          "users": 579
+        "正式期": {
+          "gmv": 255800,
+          "orders": 885,
+          "users": 754
         },
         "预热期": {
           "gmv": 329882,
           "orders": 1371,
           "users": 1077
         },
-        "正式期": {
-          "gmv": 255800,
-          "orders": 885,
-          "users": 754
+        "蓄水期": {
+          "gmv": 161148,
+          "orders": 701,
+          "users": 579
         },
         "返场期": {
           "gmv": 32313,
@@ -883,7 +883,7 @@
         "campaign": "25 年双 11 全量订单（商品清单口径）",
         "campaign_key": "y2025_d11_full",
         "date_range": "2024-10-23 → 2026-10-27",
-        "updated_at": "2026-10-27T11:32:16"
+        "updated_at": "2026-10-27T11:44:41"
       },
       "core": {
         "total_gmv": 1736880,
@@ -1709,25 +1709,25 @@
         }
       ],
       "phase": {
-        "二轮": {
-          "gmv": 511904,
-          "orders": 1894,
-          "users": 1513
-        },
         "预热期": {
           "gmv": 534515,
           "orders": 2264,
           "users": 1701
         },
-        "间歇期": {
-          "gmv": 50030,
-          "orders": 246,
-          "users": 217
-        },
         "首轮": {
           "gmv": 608266,
           "orders": 2358,
           "users": 1790
+        },
+        "二轮": {
+          "gmv": 511904,
+          "orders": 1894,
+          "users": 1513
+        },
+        "间歇期": {
+          "gmv": 50030,
+          "orders": 246,
+          "users": 217
         },
         "收尾": {
           "gmv": 32165,
@@ -1958,7 +1958,7 @@
           "name": "畅修基础会员",
           "gmv": 82124,
           "orders": 203,
-          "price": 388.0
+          "price": 528.0
         },
         {
           "name": "精修基础会员 iOS",
@@ -2376,7 +2376,7 @@
           "gmv": 82124,
           "orders": 203,
           "users": 184,
-          "price": 388.0
+          "price": 528.0
         },
         {
           "name": "269轻享会员",
@@ -2592,7 +2592,7 @@
           "gmv": 13916,
           "orders": 10,
           "users": 7,
-          "price": 0.03
+          "price": 1988.0
         },
         {
           "name": "269畅修轻享会员",
@@ -2728,7 +2728,7 @@
           "gmv": 7972,
           "orders": 4,
           "users": 4,
-          "price": 1988.0
+          "price": 1998.0
         },
         {
           "name": "iOS AI畅修券10张（会员）",
@@ -2763,8 +2763,8 @@
           "price": 0.03
         },
         {
-          "name": "畅修臻享会员",
-          "category": "畅修会员",
+          "name": "AI精修5800张 iOS",
+          "category": "AI精修",
           "gmv": 3976,
           "orders": 2,
           "users": 2,
@@ -2779,8 +2779,8 @@
           "price": 1988.0
         },
         {
-          "name": "AI精修5800张 iOS",
-          "category": "AI精修",
+          "name": "畅修臻享会员",
+          "category": "畅修会员",
           "gmv": 3976,
           "orders": 2,
           "users": 2,
@@ -2843,16 +2843,16 @@
           "price": 1980.0
         },
         {
-          "name": "iOS 178精修体验会员",
-          "category": "精修会员",
+          "name": "iOS 178畅修体验会员",
+          "category": "畅修会员",
           "gmv": 178,
           "orders": 1,
           "users": 1,
           "price": 178.0
         },
         {
-          "name": "iOS 178畅修体验会员",
-          "category": "畅修会员",
+          "name": "iOS 178精修体验会员",
+          "category": "精修会员",
           "gmv": 178,
           "orders": 1,
           "users": 1,
@@ -2866,6 +2866,728 @@
           "users": 1,
           "price": 99.0
         }
+      ],
+      "daily_category": [
+        {
+          "date": "2024-10-23",
+          "member_retouch": 0,
+          "member_unlimited": 0,
+          "voucher": 0,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2024-10-31",
+          "member_retouch": 0,
+          "member_unlimited": 0,
+          "voucher": 0,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2024-11-01",
+          "member_retouch": 1084,
+          "member_unlimited": 0,
+          "voucher": 0,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2024-11-03",
+          "member_retouch": 886,
+          "member_unlimited": 0,
+          "voucher": 0,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2024-11-04",
+          "member_retouch": 594,
+          "member_unlimited": 0,
+          "voucher": 0,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2024-11-05",
+          "member_retouch": 1002,
+          "member_unlimited": 0,
+          "voucher": 0,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2024-11-06",
+          "member_retouch": 396,
+          "member_unlimited": 0,
+          "voucher": 0,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2024-11-07",
+          "member_retouch": 1970,
+          "member_unlimited": 0,
+          "voucher": 0,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2024-11-08",
+          "member_retouch": 6543,
+          "member_unlimited": 0,
+          "voucher": 0,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2024-11-09",
+          "member_retouch": 2498,
+          "member_unlimited": 0,
+          "voucher": 0,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2024-11-10",
+          "member_retouch": 396,
+          "member_unlimited": 0,
+          "voucher": 0,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2024-11-11",
+          "member_retouch": 105030,
+          "member_unlimited": 0,
+          "voucher": 0,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2024-11-12",
+          "member_retouch": 24438,
+          "member_unlimited": 0,
+          "voucher": 0,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2025-10-17",
+          "member_retouch": 1336,
+          "member_unlimited": 148,
+          "voucher": 588,
+          "ai_retouch": 299,
+          "other": 0
+        },
+        {
+          "date": "2025-10-20",
+          "member_retouch": 42713,
+          "member_unlimited": 7644,
+          "voucher": 23126,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2025-10-21",
+          "member_retouch": 17816,
+          "member_unlimited": 6739,
+          "voucher": 9072,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2025-10-22",
+          "member_retouch": 12756,
+          "member_unlimited": 5408,
+          "voucher": 6417,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2025-10-23",
+          "member_retouch": 11208,
+          "member_unlimited": 5772,
+          "voucher": 13014,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2025-10-24",
+          "member_retouch": 14412,
+          "member_unlimited": 3725,
+          "voucher": 15889,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2025-10-25",
+          "member_retouch": 11000,
+          "member_unlimited": 2108,
+          "voucher": 13044,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2025-10-26",
+          "member_retouch": 9244,
+          "member_unlimited": 1720,
+          "voucher": 11672,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2025-10-27",
+          "member_retouch": 7228,
+          "member_unlimited": 2200,
+          "voucher": 4926,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2025-10-28",
+          "member_retouch": 10837,
+          "member_unlimited": 2792,
+          "voucher": 9185,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2025-10-29",
+          "member_retouch": 13876,
+          "member_unlimited": 2588,
+          "voucher": 9988,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2025-10-30",
+          "member_retouch": 8448,
+          "member_unlimited": 2164,
+          "voucher": 8781,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2025-10-31",
+          "member_retouch": 8412,
+          "member_unlimited": 2256,
+          "voucher": 6720,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2025-11-01",
+          "member_retouch": 12582,
+          "member_unlimited": 2200,
+          "voucher": 16776,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2025-11-02",
+          "member_retouch": 6452,
+          "member_unlimited": 536,
+          "voucher": 7593,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2025-11-03",
+          "member_retouch": 5232,
+          "member_unlimited": 2884,
+          "voucher": 3447,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2025-11-04",
+          "member_retouch": 5804,
+          "member_unlimited": 2704,
+          "voucher": 4530,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2025-11-05",
+          "member_retouch": 14020,
+          "member_unlimited": 2588,
+          "voucher": 4338,
+          "ai_retouch": 6073,
+          "other": 0
+        },
+        {
+          "date": "2025-11-06",
+          "member_retouch": 7616,
+          "member_unlimited": 5292,
+          "voucher": 7890,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2025-11-07",
+          "member_retouch": 14064,
+          "member_unlimited": 2940,
+          "voucher": 8199,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2025-11-08",
+          "member_retouch": 7580,
+          "member_unlimited": 1812,
+          "voucher": 10890,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2025-11-09",
+          "member_retouch": 9088,
+          "member_unlimited": 2748,
+          "voucher": 6918,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2025-11-10",
+          "member_retouch": 20320,
+          "member_unlimited": 3660,
+          "voucher": 6912,
+          "ai_retouch": 20384,
+          "other": 0
+        },
+        {
+          "date": "2025-11-11",
+          "member_retouch": 30696,
+          "member_unlimited": 12172,
+          "voucher": 11454,
+          "ai_retouch": 27144,
+          "other": 0
+        },
+        {
+          "date": "2025-11-12",
+          "member_retouch": 39700,
+          "member_unlimited": 7540,
+          "voucher": 15378,
+          "ai_retouch": 21404,
+          "other": 0
+        },
+        {
+          "date": "2025-11-13",
+          "member_retouch": 0,
+          "member_unlimited": 148,
+          "voucher": 0,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2025-11-14",
+          "member_retouch": 0,
+          "member_unlimited": 0,
+          "voucher": 99,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2025-12-12",
+          "member_retouch": 0,
+          "member_unlimited": 0,
+          "voucher": 2772,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2025-12-13",
+          "member_retouch": 0,
+          "member_unlimited": 0,
+          "voucher": 1584,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2025-12-14",
+          "member_retouch": 0,
+          "member_unlimited": 0,
+          "voucher": 1287,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2025-12-15",
+          "member_retouch": 0,
+          "member_unlimited": 0,
+          "voucher": 495,
+          "ai_retouch": 18800,
+          "other": 0
+        },
+        {
+          "date": "2025-12-16",
+          "member_retouch": 0,
+          "member_unlimited": 0,
+          "voucher": 990,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2025-12-17",
+          "member_retouch": 0,
+          "member_unlimited": 0,
+          "voucher": 1881,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2025-12-18",
+          "member_retouch": 0,
+          "member_unlimited": 0,
+          "voucher": 1782,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2025-12-19",
+          "member_retouch": 0,
+          "member_unlimited": 0,
+          "voucher": 2475,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-05-13",
+          "member_retouch": 0,
+          "member_unlimited": 0,
+          "voucher": 0,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-05-18",
+          "member_retouch": 41688,
+          "member_unlimited": 9468,
+          "voucher": 13185,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-05-19",
+          "member_retouch": 9096,
+          "member_unlimited": 5292,
+          "voucher": 7928,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-05-20",
+          "member_retouch": 9596,
+          "member_unlimited": 4012,
+          "voucher": 6542,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-05-21",
+          "member_retouch": 9928,
+          "member_unlimited": 3660,
+          "voucher": 9916,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-05-22",
+          "member_retouch": 6712,
+          "member_unlimited": 3920,
+          "voucher": 10197,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-05-23",
+          "member_retouch": 7212,
+          "member_unlimited": 5176,
+          "voucher": 10791,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-05-24",
+          "member_retouch": 4272,
+          "member_unlimited": 1812,
+          "voucher": 11500,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-05-25",
+          "member_retouch": 10080,
+          "member_unlimited": 1812,
+          "voucher": 3861,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-05-26",
+          "member_retouch": 8024,
+          "member_unlimited": 2256,
+          "voucher": 9801,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-05-27",
+          "member_retouch": 6396,
+          "member_unlimited": 832,
+          "voucher": 11492,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-05-28",
+          "member_retouch": 10692,
+          "member_unlimited": 3384,
+          "voucher": 13373,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-05-29",
+          "member_retouch": 17788,
+          "member_unlimited": 7972,
+          "voucher": 20897,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-05-30",
+          "member_retouch": 1072,
+          "member_unlimited": 388,
+          "voucher": 99,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-05-31",
+          "member_retouch": 0,
+          "member_unlimited": 148,
+          "voucher": 0,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-06-01",
+          "member_retouch": 592,
+          "member_unlimited": 388,
+          "voucher": 0,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-06-02",
+          "member_retouch": 592,
+          "member_unlimited": 296,
+          "voucher": 0,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-06-03",
+          "member_retouch": 832,
+          "member_unlimited": 148,
+          "voucher": 0,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-06-04",
+          "member_retouch": 1276,
+          "member_unlimited": 1312,
+          "voucher": 0,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-06-05",
+          "member_retouch": 148,
+          "member_unlimited": 0,
+          "voucher": 0,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-06-06",
+          "member_retouch": 536,
+          "member_unlimited": 0,
+          "voucher": 0,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-06-07",
+          "member_retouch": 388,
+          "member_unlimited": 1188,
+          "voucher": 0,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-06-09",
+          "member_retouch": 1928,
+          "member_unlimited": 148,
+          "voucher": 0,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-06-10",
+          "member_retouch": 148,
+          "member_unlimited": 0,
+          "voucher": 0,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-06-11",
+          "member_retouch": 148,
+          "member_unlimited": 536,
+          "voucher": 0,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-06-12",
+          "member_retouch": 444,
+          "member_unlimited": 536,
+          "voucher": 99,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-06-13",
+          "member_retouch": 536,
+          "member_unlimited": 684,
+          "voucher": 99,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-06-14",
+          "member_retouch": 776,
+          "member_unlimited": 148,
+          "voucher": 0,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-06-15",
+          "member_retouch": 684,
+          "member_unlimited": 148,
+          "voucher": 0,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-06-16",
+          "member_retouch": 22213,
+          "member_unlimited": 5269,
+          "voucher": 10890,
+          "ai_retouch": 61531,
+          "other": 0
+        },
+        {
+          "date": "2026-06-17",
+          "member_retouch": 9508,
+          "member_unlimited": 2736,
+          "voucher": 8019,
+          "ai_retouch": 14651,
+          "other": 0
+        },
+        {
+          "date": "2026-06-18",
+          "member_retouch": 17348,
+          "member_unlimited": 5185,
+          "voucher": 10890,
+          "ai_retouch": 26550,
+          "other": 0
+        },
+        {
+          "date": "2026-06-21",
+          "member_retouch": 148,
+          "member_unlimited": 0,
+          "voucher": 0,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-10-17",
+          "member_retouch": 0,
+          "member_unlimited": 178,
+          "voucher": 0,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-10-20",
+          "member_retouch": 43373,
+          "member_unlimited": 15083,
+          "voucher": 13472,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-10-21",
+          "member_retouch": 13669,
+          "member_unlimited": 3993,
+          "voucher": 7037,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-10-22",
+          "member_retouch": 21776,
+          "member_unlimited": 5321,
+          "voucher": 5845,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-10-23",
+          "member_retouch": 16421,
+          "member_unlimited": 11123,
+          "voucher": 10609,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-10-24",
+          "member_retouch": 18573,
+          "member_unlimited": 6394,
+          "voucher": 14474,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-10-25",
+          "member_retouch": 15561,
+          "member_unlimited": 1666,
+          "voucher": 11902,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-10-26",
+          "member_retouch": 21564,
+          "member_unlimited": 4920,
+          "voucher": 8914,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-10-27",
+          "member_retouch": 2797,
+          "member_unlimited": 2898,
+          "voucher": 3370,
+          "ai_retouch": 0,
+          "other": 0
+        }
       ]
     },
     "y2026_618": {
@@ -2873,7 +3595,7 @@
         "campaign": "26 年 618 大促（实时数据）",
         "campaign_key": "y2026_618",
         "date_range": "2026-05-13 → 2026-06-21",
-        "updated_at": "2026-10-27T11:32:16"
+        "updated_at": "2026-10-27T11:44:41"
       },
       "core": {
         "total_gmv": 531966,
@@ -3857,128 +4579,22 @@
             "count": 5
           },
           {
-            "name": "大促活动｜AI畅修券20张",
+            "name": "大促活动｜AI畅修券10张（非会员）",
             "count": 4
           },
           {
-            "name": "大促活动｜AI畅修券10张（非会员）",
+            "name": "大促活动｜AI畅修券30张（会员）",
             "count": 4
           }
         ]
       },
       "invites": {
-        "total": 463,
-        "inviter_users": 451,
+        "total": 0,
+        "inviter_users": 0,
         "helper_users": 0,
-        "helper_orgs": 185,
-        "status_counts": [
-          {
-            "status": "4",
-            "count": 348
-          },
-          {
-            "status": "3",
-            "count": 111
-          },
-          {
-            "status": "5",
-            "count": 4
-          }
-        ],
-        "daily": [
-          {
-            "date": "2026-05-11",
-            "count": 3
-          },
-          {
-            "date": "2026-05-12",
-            "count": 7
-          },
-          {
-            "date": "2026-05-13",
-            "count": 62
-          },
-          {
-            "date": "2026-05-14",
-            "count": 19
-          },
-          {
-            "date": "2026-05-15",
-            "count": 8
-          },
-          {
-            "date": "2026-05-16",
-            "count": 7
-          },
-          {
-            "date": "2026-05-17",
-            "count": 6
-          },
-          {
-            "date": "2026-05-18",
-            "count": 64
-          },
-          {
-            "date": "2026-05-19",
-            "count": 7
-          },
-          {
-            "date": "2026-05-20",
-            "count": 15
-          },
-          {
-            "date": "2026-05-21",
-            "count": 17
-          },
-          {
-            "date": "2026-05-22",
-            "count": 27
-          },
-          {
-            "date": "2026-05-23",
-            "count": 18
-          },
-          {
-            "date": "2026-05-24",
-            "count": 10
-          },
-          {
-            "date": "2026-05-25",
-            "count": 16
-          },
-          {
-            "date": "2026-05-26",
-            "count": 9
-          },
-          {
-            "date": "2026-05-27",
-            "count": 7
-          },
-          {
-            "date": "2026-05-28",
-            "count": 9
-          },
-          {
-            "date": "2026-05-29",
-            "count": 14
-          },
-          {
-            "date": "2026-06-11",
-            "count": 3
-          },
-          {
-            "date": "2026-06-16",
-            "count": 81
-          },
-          {
-            "date": "2026-06-17",
-            "count": 22
-          },
-          {
-            "date": "2026-06-18",
-            "count": 32
-          }
-        ]
+        "helper_orgs": 0,
+        "status_counts": [],
+        "daily": []
       }
     },
     "y2026_d11": {
@@ -3986,7 +4602,7 @@
         "campaign": "26 年双 11 大促（实时）",
         "campaign_key": "y2026_d11",
         "date_range": "2026-10-17 → 2026-10-27",
-        "updated_at": "2026-10-27T11:32:16"
+        "updated_at": "2026-10-27T11:44:41"
       },
       "core": {
         "total_gmv": 280933,
@@ -4839,6 +5455,80 @@
           "price": 178.0
         }
       ],
+      "daily_category": [
+        {
+          "date": "2026-10-17",
+          "member_retouch": 0,
+          "member_unlimited": 178,
+          "voucher": 0,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-10-20",
+          "member_retouch": 43373,
+          "member_unlimited": 15083,
+          "voucher": 13472,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-10-21",
+          "member_retouch": 13669,
+          "member_unlimited": 3993,
+          "voucher": 7037,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-10-22",
+          "member_retouch": 21776,
+          "member_unlimited": 5321,
+          "voucher": 5845,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-10-23",
+          "member_retouch": 16421,
+          "member_unlimited": 11123,
+          "voucher": 10609,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-10-24",
+          "member_retouch": 18573,
+          "member_unlimited": 6394,
+          "voucher": 14474,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-10-25",
+          "member_retouch": 15561,
+          "member_unlimited": 1666,
+          "voucher": 11902,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-10-26",
+          "member_retouch": 21564,
+          "member_unlimited": 4920,
+          "voucher": 8914,
+          "ai_retouch": 0,
+          "other": 0
+        },
+        {
+          "date": "2026-10-27",
+          "member_retouch": 2797,
+          "member_unlimited": 2898,
+          "voucher": 3370,
+          "ai_retouch": 0,
+          "other": 0
+        }
+      ],
       "compare": {
         "as_of": "2026-10-27",
         "current": {
@@ -5103,10 +5793,9 @@
     },
     "invite_detail": {
       "card_id": 8568,
-      "status": "completed",
-      "row_count": 463,
-      "rows_returned": 463,
-      "rows_truncated": null
+      "status": "failed",
+      "error": "HTTP Error 504: Gateway Time-out",
+      "rows_returned": 0
     },
     "notes": [
       "GitHub Actions 海外 runner 无法访问 Metabase，自动更新由本机 LaunchAgent 推送 dashboard_data.json。",
