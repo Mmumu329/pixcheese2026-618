@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-10-27T13:49:35",
+    "updated_at": "2026-10-27T14:01:19",
     "source": "Metabase collection 474",
     "default_dataset": "y2026_618"
   },
@@ -10,7 +10,7 @@
         "campaign": "25 年双 11 大促（真实数据，作为 618 同期基线）",
         "campaign_key": "y2025_d11",
         "date_range": "2025-10-17 → 2025-12-19",
-        "updated_at": "2026-10-27T13:49:35"
+        "updated_at": "2026-10-27T14:01:19"
       },
       "core": {
         "total_gmv": 779143,
@@ -341,25 +341,25 @@
         }
       ],
       "phase": {
-        "蓄水期": {
-          "gmv": 161148,
-          "orders": 701,
-          "users": 579
-        },
-        "预热期": {
-          "gmv": 329882,
-          "orders": 1371,
-          "users": 1077
-        },
         "正式期": {
           "gmv": 255800,
           "orders": 885,
           "users": 754
         },
+        "蓄水期": {
+          "gmv": 161148,
+          "orders": 701,
+          "users": 579
+        },
         "返场期": {
           "gmv": 32313,
           "orders": 137,
           "users": 125
+        },
+        "预热期": {
+          "gmv": 329882,
+          "orders": 1371,
+          "users": 1077
         }
       },
       "phase_ranges": [
@@ -883,7 +883,7 @@
         "campaign": "25 年双 11 全量订单（商品清单口径）",
         "campaign_key": "y2025_d11_full",
         "date_range": "2024-10-23 → 2026-10-27",
-        "updated_at": "2026-10-27T13:49:35"
+        "updated_at": "2026-10-27T14:01:19"
       },
       "core": {
         "total_gmv": 1741264,
@@ -892,7 +892,7 @@
         "unique_orgs": 4440,
         "aov": 395.9,
         "member_gmv": 1171286,
-        "voucher_gmv": 569977,
+        "voucher_gmv": 569978,
         "member_ratio": 67.3,
         "voucher_ratio": 32.7
       },
@@ -1709,11 +1709,6 @@
         }
       ],
       "phase": {
-        "预热期": {
-          "gmv": 534515,
-          "orders": 2264,
-          "users": 1701
-        },
         "首轮": {
           "gmv": 612650,
           "orders": 2375,
@@ -1724,15 +1719,20 @@
           "orders": 1894,
           "users": 1513
         },
-        "收尾": {
-          "gmv": 32165,
-          "orders": 136,
-          "users": 124
+        "预热期": {
+          "gmv": 534515,
+          "orders": 2264,
+          "users": 1701
         },
         "间歇期": {
           "gmv": 50030,
           "orders": 246,
           "users": 217
+        },
+        "收尾": {
+          "gmv": 32165,
+          "orders": 136,
+          "users": 124
         }
       },
       "phase_ranges": [
@@ -2728,7 +2728,7 @@
           "gmv": 7972,
           "orders": 4,
           "users": 4,
-          "price": 1988.0
+          "price": 1998.0
         },
         {
           "name": "iOS AI畅修券10张（会员）",
@@ -2811,7 +2811,7 @@
           "price": 3688.0
         },
         {
-          "name": "【ios】AI畅修券30张（会员）",
+          "name": "iOS AI畅修券30张（会员）",
           "category": "畅修券",
           "gmv": 2988,
           "orders": 1,
@@ -2819,7 +2819,7 @@
           "price": 2988.0
         },
         {
-          "name": "iOS AI畅修券30张（会员）",
+          "name": "【ios】AI畅修券30张（会员）",
           "category": "畅修券",
           "gmv": 2988,
           "orders": 1,
@@ -3595,7 +3595,7 @@
         "campaign": "26 年 618 大促（实时数据）",
         "campaign_key": "y2026_618",
         "date_range": "2026-05-13 → 2026-06-21",
-        "updated_at": "2026-10-27T13:49:35"
+        "updated_at": "2026-10-27T14:01:19"
       },
       "core": {
         "total_gmv": 531966,
@@ -3913,15 +3913,15 @@
           "orders": 1537,
           "users": 1186
         },
-        "沉淀期": {
-          "gmv": 16465,
-          "orders": 69,
-          "users": 49
-        },
         "返场期": {
           "gmv": 194938,
           "orders": 651,
           "users": 556
+        },
+        "沉淀期": {
+          "gmv": 16465,
+          "orders": 69,
+          "users": 49
         },
         "预约期": {
           "gmv": 0,
@@ -4583,7 +4583,7 @@
             "count": 4
           },
           {
-            "name": "大促活动｜AI畅修券10张（非会员）",
+            "name": "大促活动｜AI畅修券30张（会员）",
             "count": 4
           }
         ]
@@ -4708,7 +4708,7 @@
         "campaign": "26 年双 11 大促（实时）",
         "campaign_key": "y2026_d11",
         "date_range": "2026-10-17 → 2026-10-27",
-        "updated_at": "2026-10-27T13:49:35"
+        "updated_at": "2026-10-27T14:01:19"
       },
       "core": {
         "total_gmv": 285317,
@@ -5545,16 +5545,16 @@
           "price": 198.0
         },
         {
-          "name": "iOS 178精修体验会员",
-          "category": "精修会员",
+          "name": "iOS 178畅修体验会员",
+          "category": "畅修会员",
           "gmv": 178,
           "orders": 1,
           "users": 1,
           "price": 178.0
         },
         {
-          "name": "iOS 178畅修体验会员",
-          "category": "畅修会员",
+          "name": "iOS 178精修体验会员",
+          "category": "精修会员",
           "gmv": 178,
           "orders": 1,
           "users": 1,
